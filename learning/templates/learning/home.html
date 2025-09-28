@@ -1,0 +1,10 @@
+{% extends "learning/base.html" %}
+{% block title %}Home • English Learner{% endblock %}
+{% block content %}
+  <div class="hero p-5 mb-4">
+    <h1 class="display-6 mb-2">Learn English the easy way</h1>
+    <p class="text-secondary mb-4">Translate words with AI and build your personal knowledge base.</p>
+    <a href="{% url 'learning:word_add_page' %}" class="btn btn-primary me-2">Add a Word</a>
+    <a href="{% url 'learning:knowledge_base' %}" class="btn btn-outline-secondary">View Knowledge Base</a>
+  </div>
+{% endblock %}

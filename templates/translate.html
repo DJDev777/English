@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Word Translator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .card {
+      border-radius: 1rem;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+    .btn-primary {
+      padding: 0.6rem 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+        <div class="card p-4">
+          <h3 class="text-center mb-4">🌐 Word Translator</h3>
+          <form method="get" action="{% url 'dictionary:translate_word' %}">
+            <div class="mb-3">
+              <label for="word" class="form-label">Enter English word</label>
+              <input type="text" class="form-control" id="word" name="word" placeholder="e.g. hello" value="{{ word|default_if_none:'' }}" required>
+            </div>
+            <div class="mb-4">
+              <label for="lang" class="form-label">Choose Target Language</label>
+              <select class="form-select" name="lang" id="lang">
+                <option value="ru" {% if lang == 'ru' %}selected{% endif %}>Russian 🇷🇺</option>
+                <option value="ka" {% if lang == 'ka' %}selected{% endif %}>Georgian 🇬🇪</option>
+              </select>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary">Translate</button>
+            </div>
+          </form>
+
+          {% if translation %}
+            <div class="alert alert-success mt-4 text-center">
+              <h5 class="mb-0">
+                <strong>{{ word }}</strong> → <strong>{{ translation }}</strong> 
+                <small class="text-muted">({{ lang }})</small>
+              </h5>
+            </div>
+          {% elif word %}
+            <div class="alert alert-danger mt-4 text-center">
+              <p>No translation found or error occurred.</p>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS Bundle (optional if no modal/dropdown needed) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

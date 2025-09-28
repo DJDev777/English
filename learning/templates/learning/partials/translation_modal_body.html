@@ -1,0 +1,60 @@
+<div class="modal-header">
+  <h5 class="modal-title">Translation for “{{ word }}”</h5>
+  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+
+<div class="modal-body">
+  <div class="mb-3">
+    <div class="text-uppercase small text-secondary">Translation</div>
+    <div class="fs-5">{{ translation|default:"—" }}</div>
+  </div>
+
+  {% if definition %}
+    <div class="mb-3">
+      <div class="text-uppercase small text-secondary">Definition</div>
+      <div>{{ definition }}</div>
+    </div>
+  {% endif %}
+
+  {% if translated_example %}
+    <div class="mb-3">
+      <div class="text-uppercase small text-secondary">translated example</div>
+      <figure class="mb-0">
+        <blockquote class="blockquote"><small>{{ translated_example }}</small></blockquote>
+      </figure>
+    </div>
+  {% endif %}
+
+    {% if example %}
+    <div class="mb-3">
+      <div class="text-uppercase small text-secondary">Example</div>
+      <figure class="mb-0">
+        <blockquote class="blockquote"><small>{{ example }}</small></blockquote>
+      </figure>
+    </div>
+  {% endif %}
+
+  <!-- Hidden fields to send back on Save -->
+  <form id="save-form">
+    <input type="hidden" name="word" value="{{ word }}">
+    <input type="hidden" name="translation" value="{{ translation }}">
+    <input type="hidden" name="description" value="{{ example }}">
+
+  </form>
+
+  <div id="saveStatus" class="mt-3"></div>
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+  <button
+    type="button"
+    class="btn btn-success"
+    hx-post="{% url 'learning:save_word_htmx' %}"
+    hx-include="#save-form"
+    hx-target="#saveStatus"
+    hx-swap="innerHTML"
+  >
+    Add to Knowledge Base
+  </button>
+</div>

@@ -1,0 +1,8 @@
+django==5.2.3
+requests==2.32.4
+google-cloud-translate==3.20.3
+google-generativeai==0.8.5
+openai==1.109.1
+django-htmx==1.26.0
+python-dotenv==1.1.1
+pillow==11.3.0

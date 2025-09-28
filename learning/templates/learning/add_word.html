@@ -1,0 +1,41 @@
+{% extends "learning/base.html" %}
+{% block title %}Add Word • English Learner{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-lg-8">
+    <div class="card shadow-sm">
+      <div class="card-body p-4">
+        <h2 class="h4 mb-3">Add a new word</h2>
+        <p class="text-secondary">Enter an English word, translate it with AI, and save it to your knowledge base.</p>
+
+        <form id="word-form" class="row g-3">
+          {% csrf_token %}
+          <div class="col-12 col-md-8">
+            <label for="word" class="form-label">English word</label>
+            <input type="text" class="form-control" id="word" name="word" placeholder="e.g., benevolent" required>
+          </div>
+          <div class="col-12 col-md-4 d-flex align-items-end">
+            <button
+              type="button"
+              class="btn btn-primary w-100"
+              data-bs-toggle="modal"
+              data-bs-target="#translationModal"
+              hx-post="{% url 'learning:translate_word_htmx' %}"
+              hx-include="#word-form"
+              hx-target="#translationModal .modal-content"
+              hx-swap="innerHTML"
+            >
+              Translate
+            </button>
+          </div>
+        </form>
+
+        <div class="mt-4 small text-muted">
+          Tip: You can click Translate and then save the word directly from the modal.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

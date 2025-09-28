@@ -1,0 +1,159 @@
+{% extends "learning/base.html" %}
+{% block title %}{{ book.title }} • Reader{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between mb-3">
+  <h1 class="h4">{{ book.title }}</h1>
+  {% if user_audio %}
+    <audio controls src="{{ user_audio.audio_file.url }}" style="max-width:300px;"></audio>
+  {% endif %}
+</div>
+
+<div class="card shadow-sm">
+  <div class="card-body">
+    <div id="reader" class="reader-content">
+      {% for s in sentences %}
+        <span class="sentence" data-sentence="{{ s.text|escapejs }}">
+          {% for tk in s.tokens %}
+            {% if tk.type == "word" %}
+              <span class="word-token" data-word="{{ tk.text }}">{{ tk.text }}</span>
+            {% elif tk.type == "space" %}
+              <span class="gap"
+                    data-sentence="{{ s.text|escapejs }}"
+                    hx-post="{% url 'learning:translate_word_htmx' %}"
+                    hx-vals='js:{word:this.closest(".sentence").dataset.sentence}'
+                    hx-target="#translationModal .modal-content"
+                    hx-swap="innerHTML">{{ tk.text }}</span>
+            {% else %}
+              <span class="punct">{{ tk.text }}</span>
+            {% endif %}
+          {% endfor %}
+        </span>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="d-flex justify-content-between mb-3 align-items-center">
+    {% if not user_audio %}
+    <div>
+        <h1 class="h4 mb-1">{{ book.title }}</h1>
+        <div class="text-secondary small">Level: {{ book.level }}</div>
+    </div>
+    <!-- <audio controls src="{{ user_audio.audio_file.url }}" style="max-width:300px;"></audio> -->
+     <a href="{% url 'learning:generate_audio_for_book' book.id %}" class="btn btn-success">
+      🎧 Generate Audio
+    </a>
+  {% else %}
+    
+  {% endif %}
+</div>
+
+{% endblock %}
+
+{% block head %}
+<style>
+  .reader-content { line-height:1.8; font-size:1.05rem; }
+  .word-token { cursor:pointer; padding:0 .15rem; border-radius:.2rem; transition:background .15s,color .15s; }
+  .word-token:hover { background:rgba(13,110,253,.12); color:#0d6efd; }
+  .gap { cursor:pointer; }
+  .sentence.sentence-highlight { background:rgba(25,135,84,.1); }
+</style>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function(){
+  // CSRF for HTMX
+  function getCookie(name){const v=`; ${document.cookie}`;const p=v.split(`; ${name}=`);if(p.length===2)return p.pop().split(';').shift();}
+  document.addEventListener('htmx:configRequest',(e)=>{const t=getCookie('csrftoken');if(t)e.detail.headers['X-CSRFToken']=t;});
+
+  // Show Bootstrap modal automatically when HTMX swaps into it
+  document.body.addEventListener('htmx:afterSwap', function (evt) {
+    if(evt.detail.target.closest('#translationModal')){
+      const modalEl=document.getElementById('translationModal');
+      const modal=new bootstrap.Modal(modalEl);
+      modal.show();
+
+      // Ensure backdrop/body are cleaned up properly when closed
+      modalEl.addEventListener('hidden.bs.modal', () => {
+        document.body.classList.remove('modal-open');
+        document.querySelectorAll('.modal-backdrop').forEach(el=>el.remove());
+      }, {once:true});
+    }
+  });
+
+  const reader=document.getElementById('reader');
+  const isTouch='ontouchstart' in window||navigator.maxTouchPoints>0;
+
+  // Gap hover highlight for desktop
+  if(!isTouch){
+    reader.querySelectorAll('.gap').forEach(gap=>{
+      gap.addEventListener('mouseover',()=>{
+        const s=gap.closest('.sentence');
+        if(s) s.classList.add('sentence-highlight');
+      });
+      gap.addEventListener('mouseout',()=>{
+        const s=gap.closest('.sentence');
+        if(s) s.classList.remove('sentence-highlight');
+      });
+    });
+  }
+
+  // Popover for both desktop + mobile
+  reader.querySelectorAll('.word-token').forEach(el=>{
+    const w=el.dataset.word;
+    const content=`<div class="d-flex gap-2 align-items-center">
+      <span class="small text-secondary">${w}</span>
+      <button type="button" class="btn btn-primary btn-sm" data-translate-word="${w}">Translate</button>
+    </div>`;
+    new bootstrap.Popover(el,{
+      trigger:'click',
+      html:true,
+      placement:'top',
+      content:content,
+      sanitize:false
+    });
+
+    // Ensure only one popover is open at a time
+    el.addEventListener('click', ()=>{
+      document.querySelectorAll('.word-token').forEach(other=>{
+        if(other!==el){
+          const pop=bootstrap.Popover.getInstance(other);
+          if(pop) pop.hide();
+        }
+      });
+    });
+  });
+
+  // Close popovers when clicking outside
+  document.addEventListener('click',(e)=>{
+    if(!e.target.closest('.word-token') && !e.target.closest('.popover')){
+      document.querySelectorAll('.word-token').forEach(el=>{
+        const pop=bootstrap.Popover.getInstance(el);
+        if(pop) pop.hide();
+      });
+    }
+  });
+
+  // Handle Translate button inside popovers
+  document.addEventListener('click',function(e){
+    const btn=e.target.closest('[data-translate-word]');
+    if(!btn) return;
+    const w=btn.getAttribute('data-translate-word');
+
+    // Close all popovers
+    document.querySelectorAll('.word-token').forEach(el=>{
+      const pop=bootstrap.Popover.getInstance(el); if(pop) pop.hide();
+    });
+
+    // Send translation request via HTMX
+    htmx.ajax('POST', "{% url 'learning:translate_word_htmx' %}", {
+      values:{word:w},
+      target:"#translationModal .modal-content",
+      swap:"innerHTML"
+    });
+  });
+})();
+</script>
+{% endblock %}
