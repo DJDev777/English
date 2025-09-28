@@ -3,10 +3,12 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from google.cloud import translate_v2 as translate
 from django.views.decorators.csrf import csrf_exempt
+from django.conf import settings
 
 
 # Path to your JSON credentials file
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:/Users/irakl/Desktop/Projects/2025/Django/English/dictionary-463816-91a65c0fd582.json"
+cred_path = os.path.join(settings.BASE_DIR, "dictionary-463816-91a65c0fd582.json")
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = cred_path
 
 # Initialize the Google Translate client
 translate_client = translate.Client()
