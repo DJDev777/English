@@ -6,6 +6,9 @@ from django.conf import settings
 from django.http import HttpResponseRedirect
 from django.utils.http import url_has_allowed_host_and_scheme
 from django.contrib import messages
+from django.shortcuts import render, get_object_or_404
+from .models import Profile
+
 
 def login_view(request):
     if request.method == "POST":
@@ -39,3 +42,13 @@ def logout_view(request):
     # optional: messages.info(request, "You have been logged out.")
     # You could redirect to a specific page:
     return redirect(settings.LOGOUT_REDIRECT_URL or settings.LOGIN_URL)
+
+
+
+
+def profile_view(request, username):
+    profile = get_object_or_404(Profile, user__username=username)
+    context = {
+        "profile": profile,
+    }
+    return render(request, "accounts/profile.html", context)

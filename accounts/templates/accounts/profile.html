@@ -1,0 +1,84 @@
+{% extends 'learning/base.html' %}
+{% load static %}
+
+{% block title %}{{ profile.user.username }}'s Profile{% endblock %}
+
+{% block content %}
+<style>
+  .profile-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .profile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0072ce;
+  }
+  .badge-level {
+    background-color: #0072ce;
+  }
+</style>
+
+<div class="container py-4">
+  <div class="profile-header">
+    <img src="{{ profile.avatar.url }}" alt="Avatar" class="profile-avatar">
+    <div>
+      <h3 class="fw-bold">{{ profile.user.username }}</h3>
+      {% if profile.english_level %}
+        <span class="badge badge-level">Level {{ profile.english_level.name }}</span>
+      {% else %}
+        <span class="text-muted">No level yet</span>
+      {% endif %}
+      {% if profile.direction %}
+        <div class="text-muted mt-1">
+          Specialization: <strong>{{ profile.direction.name }}</strong>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if profile.bio %}
+    <p class="text-muted">{{ profile.bio }}</p>
+  {% endif %}
+
+  <hr>
+
+  <div class="row g-3">
+    <div class="col-md-4">
+      <div class="card shadow-sm border-0">
+        <div class="card-body text-center">
+          <h5 class="fw-bold">Knowledge Base</h5>
+          <p class="display-6 text-primary mb-0">{{ profile.total_words }}</p>
+          <small class="text-muted">Words Added</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm border-0">
+        <div class="card-body text-center">
+          <h5 class="fw-bold">Books</h5>
+          <p class="display-6 text-primary mb-0">{{ profile.total_books }}</p>
+          <small class="text-muted">Books Reading</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm border-0">
+        <div class="card-body text-center">
+          <h5 class="fw-bold">Direction</h5>
+          {% if profile.direction %}
+            <p class="fs-5 mb-0">{{ profile.direction.name }}</p>
+            <small class="text-muted">Specialization</small>
+          {% else %}
+            <small class="text-muted">Not selected yet</small>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

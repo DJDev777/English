@@ -9,52 +9,55 @@ def category_list(request):
     return render(request, "quizzes/category_list.html", {"categories": all_category})
 
 
-def start_quiz_for_level(user, level):
-    # create session
-    session = UserQuizSession.objects.create(user=user, level=level)
+# def start_quiz_for_level(user, level):
+#     # create session
+#     session = UserQuizSession.objects.create(user=user, level=level)
 
-    # pick 1 random word per category (up to 10)
-    categories = list(Category.objects.all())[:10]
-    for category in categories:
-        word = QuizWord.objects.filter(level=level, category=category).order_by('?').first()
-        if word:
-            UserQuizAnswer.objects.create(session=session, word=word)
+#     # pick 1 random word per category (up to 10)
+#     categories = list(Category.objects.all())[:10]
+#     print('categories list', categories)
+#     categories2 = Category.objects.all()[:10]
+#     print('categories2', categories2)
+#     for category in categories:
+#         word = QuizWord.objects.filter(level=level, category=category).order_by('?').first()
+#         if word:
+#             UserQuizAnswer.objects.create(session=session, word=word)
 
-    return session
-
-
-def submit_answer(answer_id, user_input):
-    ans = UserQuizAnswer.objects.get(id=answer_id)
-    ans.user_answer = user_input
-    ans.is_correct = (ans.word.translation_ka.lower().strip() == user_input.lower().strip())
-    ans.save()
+#     return session
 
 
-def finish_quiz(session):
-    total = session.answers.count()
-    correct = session.answers.filter(is_correct=True).count()
-    session.score = correct
-    session.total_questions = total
-    session.completed = True
-    session.save()
+# def submit_answer(answer_id, user_input):
+#     ans = UserQuizAnswer.objects.get(id=answer_id)
+#     ans.user_answer = user_input
+#     ans.is_correct = (ans.word.translation_ka.lower().strip() == user_input.lower().strip())
+#     ans.save()
 
-    if correct == total:
-        next_level = EnglishLevel.objects.filter(id__gt=session.level.id).first()
-        return {
-            "result": "passed",
-            "next_level": next_level.name if next_level else None
-        }
-    else:
-        wrong_answers = session.answers.filter(is_correct=False)
-        return {
-            "result": "failed",
-            "correct": correct,
-            "total": total,
-            "wrong_answers": [
-                {"word": a.word.quiz_word, "correct": a.word.translation_ka, "user": a.user_answer}
-                for a in wrong_answers
-            ]
-        }
+
+# def finish_quiz(session):
+#     total = session.answers.count()
+#     correct = session.answers.filter(is_correct=True).count()
+#     session.score = correct
+#     session.total_questions = total
+#     session.completed = True
+#     session.save()
+
+#     if correct == total:
+#         next_level = EnglishLevel.objects.filter(id__gt=session.level.id).first()
+#         return {
+#             "result": "passed",
+#             "next_level": next_level.name if next_level else None
+#         }
+#     else:
+#         wrong_answers = session.answers.filter(is_correct=False)
+#         return {
+#             "result": "failed",
+#             "correct": correct,
+#             "total": total,
+#             "wrong_answers": [
+#                 {"word": a.word.quiz_word, "correct": a.word.translation_ka, "user": a.user_answer}
+#                 for a in wrong_answers
+#             ]
+#         }
 
 
 

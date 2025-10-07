@@ -2,7 +2,33 @@
 {% load static %}
 
 {% block content %}
-<div class="container py-5">
+<style>
+  /* ✨ Плавное появление карточки */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  .fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* 🔹 Прозрачный тап-триггер (только для мобилок) */
+  .tap-to-focus {
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    background: transparent;
+    border: none;
+  }
+
+  @media (min-width: 768px) {
+    .tap-to-focus { display: none; } /* Desktop — не нужен */
+  }
+</style>
+
+<div class="container py-5 fade-in" id="quizCard">
   <div class="d-flex justify-content-between align-items-center mb-4">
     <h3 class="fw-bold text-primary">Level {{ answer.session.level.name }}</h3>
     <span class="text-muted">Question {{ question_number }} of {{ total }}</span>
@@ -19,11 +45,37 @@
 
       <form method="post" class="text-center">
         {% csrf_token %}
-        <input type="text" name="user_answer" class="form-control form-control-lg mb-3 text-center"
+        <input type="text" name="user_answer" id="user_answer_input"
+               class="form-control form-control-lg mb-3 text-center"
                placeholder="Your answer here..." required>
         <button type="submit" class="btn btn-primary px-5">Next</button>
       </form>
     </div>
   </div>
 </div>
+
+<!-- 🔹 Кнопка для первого тапа, чтобы открыть клавиатуру -->
+<button class="tap-to-focus" id="tapToFocus" aria-label="Tap to start typing"></button>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // ✨ Fade-in эффект
+    const quizCard = document.getElementById('quizCard');
+    setTimeout(() => quizCard.classList.add('show'), 50);
+
+    const input = document.getElementById('user_answer_input');
+    const tapBtn = document.getElementById('tapToFocus');
+
+    // 🖥 Desktop — ставим фокус сразу
+    if (window.innerWidth >= 768) {
+      input.focus();
+    }
+
+    // 📱 Mobile — первый тап открывает клавиатуру
+    tapBtn.addEventListener('click', () => {
+      input.focus();
+      tapBtn.style.display = 'none';
+    });
+  });
+</script>
 {% endblock %}
