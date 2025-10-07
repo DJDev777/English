@@ -1,0 +1,53 @@
+{% extends 'learning/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container py-5">
+  <div class="text-center mb-5">
+    <h2 class="fw-bold">Level {{ session.level.name }} Results</h2>
+    <p class="text-muted">{{ session.score }} / {{ session.total_questions }} correct answers</p>
+  </div>
+
+  {% if session.score == session.total_questions %}
+  <div class="alert alert-success text-center">
+    🎉 Excellent! You passed Level {{ session.level.name }}.
+    {% if next_level %}
+      <a href="{% url 'quizzes:start_quiz' next_level.id %}" class="btn btn-outline-success btn-sm ms-3">
+        Continue to Level {{ next_level.name }}
+      </a>
+    {% endif %}
+  </div>
+  {% else %}
+  <div class="alert alert-warning text-center">
+    You answered {{ session.score }} correctly. Review your mistakes below 👇
+  </div>
+  {% endif %}
+
+  <table class="table table-bordered mt-4 bg-white shadow-sm">
+    <thead class="table-light">
+      <tr>
+        <th>Word</th>
+        <th>Your Answer</th>
+        <th>Correct Answer</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for ans in answers %}
+      <tr>
+        <td>{{ ans.word.quiz_word }}</td>
+        <td>{{ ans.user_answer }}</td>
+        <td>{{ ans.word.translation_ka }}</td>
+        <td>
+          {% if ans.is_correct %}
+            <span class="badge bg-success">Correct</span>
+          {% else %}
+            <span class="badge bg-danger">Wrong</span>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

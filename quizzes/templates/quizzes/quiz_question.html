@@ -1,0 +1,29 @@
+{% extends 'learning/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container py-5">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h3 class="fw-bold text-primary">Level {{ answer.session.level.name }}</h3>
+    <span class="text-muted">Question {{ question_number }} of {{ total }}</span>
+  </div>
+
+  <div class="progress mb-4" style="height: 10px;">
+    <div class="progress-bar bg-success" style="width: {{ progress }}%;"></div>
+  </div>
+
+  <div class="card shadow-sm border-0 p-4">
+    <div class="card-body">
+      <h4 class="mb-3 text-dark">Translate this word to Georgian:</h4>
+      <h2 class="fw-bold mb-4 text-center text-primary">{{ answer.word.quiz_word }}</h2>
+
+      <form method="post" class="text-center">
+        {% csrf_token %}
+        <input type="text" name="user_answer" class="form-control form-control-lg mb-3 text-center"
+               placeholder="Your answer here..." required>
+        <button type="submit" class="btn btn-primary px-5">Next</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

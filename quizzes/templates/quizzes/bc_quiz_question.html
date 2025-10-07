@@ -1,0 +1,55 @@
+{% extends 'learning/base.html' %}
+{% load static %}
+
+{% block content %}
+<style>
+  body {
+    background-color: #f8f9fa;
+    font-family: "Segoe UI", Roboto, sans-serif;
+  }
+  .quiz-wrapper {
+    max-width: 700px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+  }
+  .progress-bar {
+    background-color: #0072ce !important;
+  }
+  .btn-main {
+    background-color: #0072ce;
+    border: none;
+  }
+  .btn-main:hover {
+    background-color: #005fa3;
+  }
+</style>
+
+<div class="quiz-wrapper">
+  <div class="mb-4">
+    <h3 class="text-center text-primary mb-3">Level {{ answer.session.level.name }}</h3>
+    <div class="d-flex justify-content-between">
+      <span class="text-muted small">Question {{ question_number }} of {{ total }}</span>
+      <span class="text-muted small">{{ progress }}% Complete</span>
+    </div>
+    <div class="progress mt-2" style="height: 6px;">
+      <div class="progress-bar" style="width: {{ progress }}%;"></div>
+    </div>
+  </div>
+
+  <div class="text-center mb-5">
+    <h4 class="mb-3">Translate this word to Georgian:</h4>
+    <h1 class="fw-bold text-dark">{{ answer.word.quiz_word }}</h1>
+  </div>
+
+  <form method="post" class="text-center">
+    {% csrf_token %}
+    <input type="text" name="user_answer"
+           class="form-control form-control-lg mb-4 text-center"
+           placeholder="Enter translation..." required>
+    <button type="submit" class="btn btn-main px-5 py-2 text-white">Submit</button>
+  </form>
+</div>
+{% endblock %}

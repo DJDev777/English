@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-p^f@=)c)weu6unvkuzd@%u9^rok639kagoq$cuc-phi$c42pfd'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['english.lumos.com.ge']
 
@@ -30,6 +30,8 @@ INSTALLED_APPS = [
     ### My Apps ###
     'dictionary',
     'learning',
+    'accounts',
+    'quizzes',
 ]
 
 MIDDLEWARE = [
@@ -47,13 +49,15 @@ ROOT_URLCONF = 'core.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'quizzes.context_processors.english_levels_context',
+                "accounts.context_processors.user_level_context",
             ],
         },
     },
@@ -122,3 +126,9 @@ MEDIA_URL = '/media/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+LOGIN_URL = "accounts:login"
+LOGIN_REDIRECT_URL = "learning:home"
+LOGOUT_REDIRECT_URL = "learning:home"

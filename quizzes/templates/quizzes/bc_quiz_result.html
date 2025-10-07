@@ -1,0 +1,86 @@
+{% extends 'learning/base.html' %}
+{% load static %}
+
+{% block content %}
+<style>
+  body {
+    background-color: #f8f9fa;
+    font-family: "Segoe UI", Roboto, sans-serif;
+  }
+  .result-card {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+  }
+  .table {
+    font-size: 0.95rem;
+  }
+  .table thead {
+    background-color: #0072ce;
+    color: white;
+  }
+  .badge-correct {
+    background-color: #28a745;
+  }
+  .badge-wrong {
+    background-color: #dc3545;
+  }
+  .btn-next {
+    background-color: #0072ce;
+    border: none;
+  }
+</style>
+
+<div class="result-card">
+  <div class="text-center mb-4">
+    <h2 class="fw-bold text-primary">Level {{ session.level.name }} – Results</h2>
+    <p class="text-muted">{{ session.score }} / {{ session.total_questions }} correct answers</p>
+  </div>
+
+  {% if session.score == session.total_questions %}
+  <div class="alert alert-success text-center">
+    ✅ Perfect! You’ve mastered this level.
+    {% if next_level %}
+    <a href="{% url 'quizzes:start_quiz' next_level.id %}"
+       class="btn btn-next text-white btn-sm ms-2">
+       Continue to Level {{ next_level.name }}
+    </a>
+    {% endif %}
+  </div>
+  {% else %}
+  <div class="alert alert-info text-center">
+    You did well! Review your incorrect answers below and try again.
+  </div>
+  {% endif %}
+
+  <table class="table table-bordered mt-4">
+    <thead>
+      <tr>
+        <th>Word</th>
+        <th>Your Answer</th>
+        <th>Correct Answer</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for ans in answers %}
+      <tr>
+        <td>{{ ans.word.quiz_word }}</td>
+        <td>{{ ans.user_answer }}</td>
+        <td>{{ ans.word.translation_ka }}</td>
+        <td>
+          {% if ans.is_correct %}
+            <span class="badge badge-correct">Correct</span>
+          {% else %}
+            <span class="badge badge-wrong">Wrong</span>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

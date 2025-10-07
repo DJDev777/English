@@ -1,0 +1,8002 @@
+[
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 1,
+    "fields": {
+      "quiz_word": "apple",
+      "translation_ka": "ვაშლი",
+      "category": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 2,
+    "fields": {
+      "quiz_word": "bread",
+      "translation_ka": "პური",
+      "category": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 3,
+    "fields": {
+      "quiz_word": "water",
+      "translation_ka": "წყალი",
+      "category": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 4,
+    "fields": {
+      "quiz_word": "tea",
+      "translation_ka": "ჩაი",
+      "category": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 5,
+    "fields": {
+      "quiz_word": "coffee",
+      "translation_ka": "ყავა",
+      "category": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 6,
+    "fields": {
+      "quiz_word": "milk",
+      "translation_ka": "რძე",
+      "category": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 7,
+    "fields": {
+      "quiz_word": "egg",
+      "translation_ka": "კვერცხი",
+      "category": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 8,
+    "fields": {
+      "quiz_word": "fish",
+      "translation_ka": "თევზი",
+      "category": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 9,
+    "fields": {
+      "quiz_word": "meat",
+      "translation_ka": "ხორცი",
+      "category": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 10,
+    "fields": {
+      "quiz_word": "rice",
+      "translation_ka": "ბრინჯი",
+      "category": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 11,
+    "fields": {
+      "quiz_word": "bus",
+      "translation_ka": "ავტობუსი",
+      "category": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 12,
+    "fields": {
+      "quiz_word": "car",
+      "translation_ka": "მანქანა",
+      "category": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 13,
+    "fields": {
+      "quiz_word": "train",
+      "translation_ka": "მატარებელი",
+      "category": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 14,
+    "fields": {
+      "quiz_word": "plane",
+      "translation_ka": "თვითმფრინავი",
+      "category": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 15,
+    "fields": {
+      "quiz_word": "taxi",
+      "translation_ka": "ტაქსი",
+      "category": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 16,
+    "fields": {
+      "quiz_word": "bike",
+      "translation_ka": "ველოსიპედი",
+      "category": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 17,
+    "fields": {
+      "quiz_word": "street",
+      "translation_ka": "ქუჩა",
+      "category": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 18,
+    "fields": {
+      "quiz_word": "road",
+      "translation_ka": "გზა",
+      "category": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 19,
+    "fields": {
+      "quiz_word": "ticket",
+      "translation_ka": "ბილეთი",
+      "category": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 20,
+    "fields": {
+      "quiz_word": "map",
+      "translation_ka": "რუკა",
+      "category": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 21,
+    "fields": {
+      "quiz_word": "job",
+      "translation_ka": "სამსახური",
+      "category": 3,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 22,
+    "fields": {
+      "quiz_word": "money",
+      "translation_ka": "ფული",
+      "category": 3,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 23,
+    "fields": {
+      "quiz_word": "shop",
+      "translation_ka": "მაღაზია",
+      "category": 3,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 24,
+    "fields": {
+      "quiz_word": "bank",
+      "translation_ka": "ბანკი",
+      "category": 3,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 25,
+    "fields": {
+      "quiz_word": "boss",
+      "translation_ka": "უფროსი",
+      "category": 3,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 26,
+    "fields": {
+      "quiz_word": "office",
+      "translation_ka": "ოფისი",
+      "category": 3,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 27,
+    "fields": {
+      "quiz_word": "pay",
+      "translation_ka": "გადახდა",
+      "category": 3,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 28,
+    "fields": {
+      "quiz_word": "buy",
+      "translation_ka": "ყიდვა",
+      "category": 3,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 29,
+    "fields": {
+      "quiz_word": "sell",
+      "translation_ka": "გაყიდვა",
+      "category": 3,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 30,
+    "fields": {
+      "quiz_word": "work",
+      "translation_ka": "მუშაობა",
+      "category": 3,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 31,
+    "fields": {
+      "quiz_word": "school",
+      "translation_ka": "სკოლა",
+      "category": 4,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 32,
+    "fields": {
+      "quiz_word": "teacher",
+      "translation_ka": "მასწავლებელი",
+      "category": 4,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 33,
+    "fields": {
+      "quiz_word": "student",
+      "translation_ka": "სტუდენტი",
+      "category": 4,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 34,
+    "fields": {
+      "quiz_word": "book",
+      "translation_ka": "წიგნი",
+      "category": 4,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 35,
+    "fields": {
+      "quiz_word": "pen",
+      "translation_ka": "კალამი",
+      "category": 4,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 36,
+    "fields": {
+      "quiz_word": "paper",
+      "translation_ka": "ქაღალდი",
+      "category": 4,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 37,
+    "fields": {
+      "quiz_word": "class",
+      "translation_ka": "კლასი",
+      "category": 4,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 38,
+    "fields": {
+      "quiz_word": "desk",
+      "translation_ka": "მაგიდა",
+      "category": 4,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 39,
+    "fields": {
+      "quiz_word": "read",
+      "translation_ka": "კითხვა",
+      "category": 4,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 40,
+    "fields": {
+      "quiz_word": "write",
+      "translation_ka": "წერა",
+      "category": 4,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 41,
+    "fields": {
+      "quiz_word": "phone",
+      "translation_ka": "ტელეფონი",
+      "category": 5,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 42,
+    "fields": {
+      "quiz_word": "computer",
+      "translation_ka": "კომპიუტერი",
+      "category": 5,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 43,
+    "fields": {
+      "quiz_word": "TV",
+      "translation_ka": "ტელევიზორი",
+      "category": 5,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 44,
+    "fields": {
+      "quiz_word": "radio",
+      "translation_ka": "რადიო",
+      "category": 5,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 45,
+    "fields": {
+      "quiz_word": "photo",
+      "translation_ka": "ფოტო",
+      "category": 5,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 46,
+    "fields": {
+      "quiz_word": "video",
+      "translation_ka": "ვიდეო",
+      "category": 5,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 47,
+    "fields": {
+      "quiz_word": "music",
+      "translation_ka": "მუსიკა",
+      "category": 5,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 48,
+    "fields": {
+      "quiz_word": "call",
+      "translation_ka": "დარეკვა",
+      "category": 5,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 49,
+    "fields": {
+      "quiz_word": "game",
+      "translation_ka": "თამაში",
+      "category": 5,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 50,
+    "fields": {
+      "quiz_word": "clock",
+      "translation_ka": "საათი",
+      "category": 5,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 51,
+    "fields": {
+      "quiz_word": "head",
+      "translation_ka": "თავი",
+      "category": 6,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 52,
+    "fields": {
+      "quiz_word": "hand",
+      "translation_ka": "ხელი",
+      "category": 6,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 53,
+    "fields": {
+      "quiz_word": "leg",
+      "translation_ka": "ფეხი",
+      "category": 6,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 54,
+    "fields": {
+      "quiz_word": "eye",
+      "translation_ka": "თვალი",
+      "category": 6,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 55,
+    "fields": {
+      "quiz_word": "ear",
+      "translation_ka": "ყური",
+      "category": 6,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 56,
+    "fields": {
+      "quiz_word": "doctor",
+      "translation_ka": "ექიმი",
+      "category": 6,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 57,
+    "fields": {
+      "quiz_word": "hospital",
+      "translation_ka": "საავადმყოფო",
+      "category": 6,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 58,
+    "fields": {
+      "quiz_word": "sick",
+      "translation_ka": "ავად",
+      "category": 6,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 59,
+    "fields": {
+      "quiz_word": "medicine",
+      "translation_ka": "წამალი",
+      "category": 6,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 60,
+    "fields": {
+      "quiz_word": "pain",
+      "translation_ka": "ტკივილი",
+      "category": 6,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 61,
+    "fields": {
+      "quiz_word": "sun",
+      "translation_ka": "მზე",
+      "category": 7,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 62,
+    "fields": {
+      "quiz_word": "moon",
+      "translation_ka": "მთვარე",
+      "category": 7,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 63,
+    "fields": {
+      "quiz_word": "star",
+      "translation_ka": "ვარსკვლავი",
+      "category": 7,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 64,
+    "fields": {
+      "quiz_word": "sky",
+      "translation_ka": "ცა",
+      "category": 7,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 65,
+    "fields": {
+      "quiz_word": "water",
+      "translation_ka": "წყალი",
+      "category": 7,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 66,
+    "fields": {
+      "quiz_word": "tree",
+      "translation_ka": "ხე",
+      "category": 7,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 67,
+    "fields": {
+      "quiz_word": "flower",
+      "translation_ka": "ყვავილი",
+      "category": 7,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 68,
+    "fields": {
+      "quiz_word": "rain",
+      "translation_ka": "წვიმა",
+      "category": 7,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 69,
+    "fields": {
+      "quiz_word": "snow",
+      "translation_ka": "თოვლი",
+      "category": 7,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 70,
+    "fields": {
+      "quiz_word": "wind",
+      "translation_ka": "ქარი",
+      "category": 7,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 71,
+    "fields": {
+      "quiz_word": "house",
+      "translation_ka": "სახლი",
+      "category": 8,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 72,
+    "fields": {
+      "quiz_word": "room",
+      "translation_ka": "ოთახი",
+      "category": 8,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 73,
+    "fields": {
+      "quiz_word": "bed",
+      "translation_ka": "საწოლი",
+      "category": 8,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 74,
+    "fields": {
+      "quiz_word": "chair",
+      "translation_ka": "სკამი",
+      "category": 8,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 75,
+    "fields": {
+      "quiz_word": "table",
+      "translation_ka": "მაგიდა",
+      "category": 8,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 76,
+    "fields": {
+      "quiz_word": "door",
+      "translation_ka": "კარი",
+      "category": 8,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 77,
+    "fields": {
+      "quiz_word": "window",
+      "translation_ka": "ფანჯარა",
+      "category": 8,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 78,
+    "fields": {
+      "quiz_word": "family",
+      "translation_ka": "ოჯახი",
+      "category": 8,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 79,
+    "fields": {
+      "quiz_word": "friend",
+      "translation_ka": "მეგობარი",
+      "category": 8,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 80,
+    "fields": {
+      "quiz_word": "clothes",
+      "translation_ka": "ტანსაცმელი",
+      "category": 8,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 81,
+    "fields": {
+      "quiz_word": "happy",
+      "translation_ka": "ბედნიერი",
+      "category": 9,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 82,
+    "fields": {
+      "quiz_word": "sad",
+      "translation_ka": "სევდიანი",
+      "category": 9,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 83,
+    "fields": {
+      "quiz_word": "angry",
+      "translation_ka": "გაბრაზებული",
+      "category": 9,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 84,
+    "fields": {
+      "quiz_word": "tired",
+      "translation_ka": "დაღლილი",
+      "category": 9,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 85,
+    "fields": {
+      "quiz_word": "good",
+      "translation_ka": "კარგი",
+      "category": 9,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 86,
+    "fields": {
+      "quiz_word": "bad",
+      "translation_ka": "ცუდი",
+      "category": 9,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 87,
+    "fields": {
+      "quiz_word": "nice",
+      "translation_ka": "ლამაზი",
+      "category": 9,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 88,
+    "fields": {
+      "quiz_word": "love",
+      "translation_ka": "სიყვარული",
+      "category": 9,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 89,
+    "fields": {
+      "quiz_word": "like",
+      "translation_ka": "მოწონება",
+      "category": 9,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 90,
+    "fields": {
+      "quiz_word": "afraid",
+      "translation_ka": "შეშინებული",
+      "category": 9,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 91,
+    "fields": {
+      "quiz_word": "city",
+      "translation_ka": "ქალაქი",
+      "category": 10,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 92,
+    "fields": {
+      "quiz_word": "country",
+      "translation_ka": "ქვეყანა",
+      "category": 10,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 93,
+    "fields": {
+      "quiz_word": "people",
+      "translation_ka": "ხალხი",
+      "category": 10,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 94,
+    "fields": {
+      "quiz_word": "man",
+      "translation_ka": "კაცი",
+      "category": 10,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 95,
+    "fields": {
+      "quiz_word": "woman",
+      "translation_ka": "ქალი",
+      "category": 10,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 96,
+    "fields": {
+      "quiz_word": "child",
+      "translation_ka": "ბავშვი",
+      "category": 10,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 97,
+    "fields": {
+      "quiz_word": "music",
+      "translation_ka": "მუსიკა",
+      "category": 10,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 98,
+    "fields": {
+      "quiz_word": "movie",
+      "translation_ka": "ფილმი",
+      "category": 10,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 99,
+    "fields": {
+      "quiz_word": "sport",
+      "translation_ka": "სპორტი",
+      "category": 10,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 100,
+    "fields": {
+      "quiz_word": "party",
+      "translation_ka": "წვეულება",
+      "category": 10,
+      "level": 1
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 101,
+    "fields": {
+      "quiz_word": "butter",
+      "translation_ka": "კარაქი",
+      "category": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 102,
+    "fields": {
+      "quiz_word": "cheese",
+      "translation_ka": "ყველი",
+      "category": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 103,
+    "fields": {
+      "quiz_word": "chicken",
+      "translation_ka": "ქათამი",
+      "category": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 104,
+    "fields": {
+      "quiz_word": "salt",
+      "translation_ka": "მარილი",
+      "category": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 105,
+    "fields": {
+      "quiz_word": "sugar",
+      "translation_ka": "შაქარი",
+      "category": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 106,
+    "fields": {
+      "quiz_word": "soup",
+      "translation_ka": "სუპი",
+      "category": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 107,
+    "fields": {
+      "quiz_word": "fruit",
+      "translation_ka": "ხილი",
+      "category": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 108,
+    "fields": {
+      "quiz_word": "vegetable",
+      "translation_ka": "ბოსტნეული",
+      "category": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 109,
+    "fields": {
+      "quiz_word": "juice",
+      "translation_ka": "წვენი",
+      "category": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 110,
+    "fields": {
+      "quiz_word": "beer",
+      "translation_ka": "ლუდი",
+      "category": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 111,
+    "fields": {
+      "quiz_word": "airport",
+      "translation_ka": "აეროპორტი",
+      "category": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 112,
+    "fields": {
+      "quiz_word": "station",
+      "translation_ka": "სადგური",
+      "category": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 113,
+    "fields": {
+      "quiz_word": "journey",
+      "translation_ka": "მოგზაურობა",
+      "category": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 114,
+    "fields": {
+      "quiz_word": "luggage",
+      "translation_ka": "ბარგი",
+      "category": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 115,
+    "fields": {
+      "quiz_word": "hotel",
+      "translation_ka": "სასტუმრო",
+      "category": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 116,
+    "fields": {
+      "quiz_word": "ticket office",
+      "translation_ka": "სალარო",
+      "category": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 117,
+    "fields": {
+      "quiz_word": "passport",
+      "translation_ka": "პასპორტი",
+      "category": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 118,
+    "fields": {
+      "quiz_word": "driver",
+      "translation_ka": "მძღოლი",
+      "category": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 119,
+    "fields": {
+      "quiz_word": "stop",
+      "translation_ka": "გაჩერება",
+      "category": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 120,
+    "fields": {
+      "quiz_word": "travel",
+      "translation_ka": "მოგზაურობა",
+      "category": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 121,
+    "fields": {
+      "quiz_word": "colleague",
+      "translation_ka": "კოლეგა",
+      "category": 3,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 122,
+    "fields": {
+      "quiz_word": "company",
+      "translation_ka": "კომპანია",
+      "category": 3,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 123,
+    "fields": {
+      "quiz_word": "factory",
+      "translation_ka": "ქარხანა",
+      "category": 3,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 124,
+    "fields": {
+      "quiz_word": "meeting",
+      "translation_ka": "შეხვედრა",
+      "category": 3,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 125,
+    "fields": {
+      "quiz_word": "customer",
+      "translation_ka": "მომხმარებელი",
+      "category": 3,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 126,
+    "fields": {
+      "quiz_word": "manager",
+      "translation_ka": "მენეჯერი",
+      "category": 3,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 127,
+    "fields": {
+      "quiz_word": "worker",
+      "translation_ka": "მუშა",
+      "category": 3,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 128,
+    "fields": {
+      "quiz_word": "busy",
+      "translation_ka": "დაკავებული",
+      "category": 3,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 129,
+    "fields": {
+      "quiz_word": "shop assistant",
+      "translation_ka": "გამყიდველი",
+      "category": 3,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 130,
+    "fields": {
+      "quiz_word": "business",
+      "translation_ka": "ბიზნესი",
+      "category": 3,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 131,
+    "fields": {
+      "quiz_word": "university",
+      "translation_ka": "უნივერსიტეტი",
+      "category": 4,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 132,
+    "fields": {
+      "quiz_word": "subject",
+      "translation_ka": "საგანი",
+      "category": 4,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 133,
+    "fields": {
+      "quiz_word": "homework",
+      "translation_ka": "საშინაო დავალება",
+      "category": 4,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 134,
+    "fields": {
+      "quiz_word": "exam",
+      "translation_ka": "გამოცდა",
+      "category": 4,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 135,
+    "fields": {
+      "quiz_word": "question",
+      "translation_ka": "კითხვა",
+      "category": 4,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 136,
+    "fields": {
+      "quiz_word": "answer",
+      "translation_ka": "პასუხი",
+      "category": 4,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 137,
+    "fields": {
+      "quiz_word": "blackboard",
+      "translation_ka": "დაფა",
+      "category": 4,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 138,
+    "fields": {
+      "quiz_word": "dictionary",
+      "translation_ka": "ლექსიკონი",
+      "category": 4,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 139,
+    "fields": {
+      "quiz_word": "learn",
+      "translation_ka": "სწავლა",
+      "category": 4,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 140,
+    "fields": {
+      "quiz_word": "study",
+      "translation_ka": "სწავლა",
+      "category": 4,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 141,
+    "fields": {
+      "quiz_word": "email",
+      "translation_ka": "ელფოსტა",
+      "category": 5,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 142,
+    "fields": {
+      "quiz_word": "laptop",
+      "translation_ka": "ლეპტოპი",
+      "category": 5,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 143,
+    "fields": {
+      "quiz_word": "screen",
+      "translation_ka": "ეკრანი",
+      "category": 5,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 144,
+    "fields": {
+      "quiz_word": "keyboard",
+      "translation_ka": "კლავიატურა",
+      "category": 5,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 145,
+    "fields": {
+      "quiz_word": "mouse",
+      "translation_ka": "მაუსი",
+      "category": 5,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 146,
+    "fields": {
+      "quiz_word": "website",
+      "translation_ka": "ვებსაიტი",
+      "category": 5,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 147,
+    "fields": {
+      "quiz_word": "password",
+      "translation_ka": "პაროლი",
+      "category": 5,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 148,
+    "fields": {
+      "quiz_word": "photo camera",
+      "translation_ka": "ფოტოაპარატი",
+      "category": 5,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 149,
+    "fields": {
+      "quiz_word": "file",
+      "translation_ka": "ფაილი",
+      "category": 5,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 150,
+    "fields": {
+      "quiz_word": "internet",
+      "translation_ka": "ინტერნეტი",
+      "category": 5,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 151,
+    "fields": {
+      "quiz_word": "tooth",
+      "translation_ka": "კბილი",
+      "category": 6,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 152,
+    "fields": {
+      "quiz_word": "mouth",
+      "translation_ka": "პირი",
+      "category": 6,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 153,
+    "fields": {
+      "quiz_word": "nose",
+      "translation_ka": "ცხვირი",
+      "category": 6,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 154,
+    "fields": {
+      "quiz_word": "finger",
+      "translation_ka": "თითი",
+      "category": 6,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 155,
+    "fields": {
+      "quiz_word": "foot",
+      "translation_ka": "ტერფი",
+      "category": 6,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 156,
+    "fields": {
+      "quiz_word": "nurse",
+      "translation_ka": "მედდა",
+      "category": 6,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 157,
+    "fields": {
+      "quiz_word": "clinic",
+      "translation_ka": "კლინიკა",
+      "category": 6,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 158,
+    "fields": {
+      "quiz_word": "fever",
+      "translation_ka": "ცხელება",
+      "category": 6,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 159,
+    "fields": {
+      "quiz_word": "cold",
+      "translation_ka": "გაციება",
+      "category": 6,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 160,
+    "fields": {
+      "quiz_word": "healthy",
+      "translation_ka": "ჯანმრთელი",
+      "category": 6,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 161,
+    "fields": {
+      "quiz_word": "mountain",
+      "translation_ka": "მთა",
+      "category": 7,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 162,
+    "fields": {
+      "quiz_word": "river",
+      "translation_ka": "მდინარე",
+      "category": 7,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 163,
+    "fields": {
+      "quiz_word": "sea",
+      "translation_ka": "ზღვა",
+      "category": 7,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 164,
+    "fields": {
+      "quiz_word": "lake",
+      "translation_ka": "ტბა",
+      "category": 7,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 165,
+    "fields": {
+      "quiz_word": "beach",
+      "translation_ka": "სანაპირო",
+      "category": 7,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 166,
+    "fields": {
+      "quiz_word": "park",
+      "translation_ka": "პარკი",
+      "category": 7,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 167,
+    "fields": {
+      "quiz_word": "farm",
+      "translation_ka": "ფერმა",
+      "category": 7,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 168,
+    "fields": {
+      "quiz_word": "grass",
+      "translation_ka": "ბალახი",
+      "category": 7,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 169,
+    "fields": {
+      "quiz_word": "earth",
+      "translation_ka": "დედამიწა",
+      "category": 7,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 170,
+    "fields": {
+      "quiz_word": "stone",
+      "translation_ka": "ქვა",
+      "category": 7,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 171,
+    "fields": {
+      "quiz_word": "kitchen",
+      "translation_ka": "სამზარეულო",
+      "category": 8,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 172,
+    "fields": {
+      "quiz_word": "bathroom",
+      "translation_ka": "აბაზანა",
+      "category": 8,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 173,
+    "fields": {
+      "quiz_word": "garden",
+      "translation_ka": "ბაღი",
+      "category": 8,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 174,
+    "fields": {
+      "quiz_word": "sofa",
+      "translation_ka": "დივანი",
+      "category": 8,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 175,
+    "fields": {
+      "quiz_word": "floor",
+      "translation_ka": "იატაკი",
+      "category": 8,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 176,
+    "fields": {
+      "quiz_word": "wall",
+      "translation_ka": "კედელი",
+      "category": 8,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 177,
+    "fields": {
+      "quiz_word": "phone call",
+      "translation_ka": "ზარი",
+      "category": 8,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 178,
+    "fields": {
+      "quiz_word": "neighbor",
+      "translation_ka": "მეზობელი",
+      "category": 8,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 179,
+    "fields": {
+      "quiz_word": "key",
+      "translation_ka": "გასაღები",
+      "category": 8,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 180,
+    "fields": {
+      "quiz_word": "mirror",
+      "translation_ka": "სარკე",
+      "category": 8,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 181,
+    "fields": {
+      "quiz_word": "excited",
+      "translation_ka": "აღფრთოვანებული",
+      "category": 9,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 182,
+    "fields": {
+      "quiz_word": "nervous",
+      "translation_ka": "ნერვიული",
+      "category": 9,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 183,
+    "fields": {
+      "quiz_word": "friendly",
+      "translation_ka": "მეგობრული",
+      "category": 9,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 184,
+    "fields": {
+      "quiz_word": "shy",
+      "translation_ka": "მორიდებული",
+      "category": 9,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 185,
+    "fields": {
+      "quiz_word": "helpful",
+      "translation_ka": "სასარგებლო",
+      "category": 9,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 186,
+    "fields": {
+      "quiz_word": "hungry",
+      "translation_ka": "მშიერი",
+      "category": 9,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 187,
+    "fields": {
+      "quiz_word": "thirsty",
+      "translation_ka": "წყურვილი",
+      "category": 9,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 188,
+    "fields": {
+      "quiz_word": "bored",
+      "translation_ka": "მოსაწყენი",
+      "category": 9,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 189,
+    "fields": {
+      "quiz_word": "funny",
+      "translation_ka": "სახალისო",
+      "category": 9,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 190,
+    "fields": {
+      "quiz_word": "quiet",
+      "translation_ka": "ჩუმი",
+      "category": 9,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 191,
+    "fields": {
+      "quiz_word": "language",
+      "translation_ka": "ენა",
+      "category": 10,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 192,
+    "fields": {
+      "quiz_word": "festival",
+      "translation_ka": "ფესტივალი",
+      "category": 10,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 193,
+    "fields": {
+      "quiz_word": "holiday",
+      "translation_ka": "დღესასწაული",
+      "category": 10,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 194,
+    "fields": {
+      "quiz_word": "tradition",
+      "translation_ka": "ტრადიცია",
+      "category": 10,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 195,
+    "fields": {
+      "quiz_word": "museum",
+      "translation_ka": "მუზეუმი",
+      "category": 10,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 196,
+    "fields": {
+      "quiz_word": "library",
+      "translation_ka": "ბიბლიოთეკა",
+      "category": 10,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 197,
+    "fields": {
+      "quiz_word": "theatre",
+      "translation_ka": "თეატრი",
+      "category": 10,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 198,
+    "fields": {
+      "quiz_word": "history",
+      "translation_ka": "ისტორია",
+      "category": 10,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 199,
+    "fields": {
+      "quiz_word": "church",
+      "translation_ka": "ეკლესია",
+      "category": 10,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 200,
+    "fields": {
+      "quiz_word": "law",
+      "translation_ka": "კანონი",
+      "category": 10,
+      "level": 2
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 201,
+    "fields": {
+      "quiz_word": "dessert",
+      "translation_ka": "დესერტი",
+      "category": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 202,
+    "fields": {
+      "quiz_word": "meal",
+      "translation_ka": "კვება",
+      "category": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 203,
+    "fields": {
+      "quiz_word": "dinner",
+      "translation_ka": "ვახშამი",
+      "category": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 204,
+    "fields": {
+      "quiz_word": "breakfast",
+      "translation_ka": "საუზმე",
+      "category": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 205,
+    "fields": {
+      "quiz_word": "lunch",
+      "translation_ka": "სადილი",
+      "category": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 206,
+    "fields": {
+      "quiz_word": "restaurant",
+      "translation_ka": "რესტორანი",
+      "category": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 207,
+    "fields": {
+      "quiz_word": "menu",
+      "translation_ka": "მენიუ",
+      "category": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 208,
+    "fields": {
+      "quiz_word": "waiter",
+      "translation_ka": "მიმტანი",
+      "category": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 209,
+    "fields": {
+      "quiz_word": "hungry",
+      "translation_ka": "მშიერი",
+      "category": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 210,
+    "fields": {
+      "quiz_word": "delicious",
+      "translation_ka": "გემრიელი",
+      "category": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 211,
+    "fields": {
+      "quiz_word": "journey",
+      "translation_ka": "მოგზაურობა",
+      "category": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 212,
+    "fields": {
+      "quiz_word": "adventure",
+      "translation_ka": "თავგადასავალი",
+      "category": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 213,
+    "fields": {
+      "quiz_word": "guide",
+      "translation_ka": "მეგზური",
+      "category": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 214,
+    "fields": {
+      "quiz_word": "sightseeing",
+      "translation_ka": "ღირსშესანიშნაობების დათვალიერება",
+      "category": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 215,
+    "fields": {
+      "quiz_word": "ticket price",
+      "translation_ka": "ბილეთის ფასი",
+      "category": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 216,
+    "fields": {
+      "quiz_word": "tourist",
+      "translation_ka": "ტურისტი",
+      "category": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 217,
+    "fields": {
+      "quiz_word": "island",
+      "translation_ka": "კუნძული",
+      "category": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 218,
+    "fields": {
+      "quiz_word": "border",
+      "translation_ka": "საზღვარი",
+      "category": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 219,
+    "fields": {
+      "quiz_word": "travel agency",
+      "translation_ka": "ტურისტული სააგენტო",
+      "category": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 220,
+    "fields": {
+      "quiz_word": "visa",
+      "translation_ka": "ვიზა",
+      "category": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 221,
+    "fields": {
+      "quiz_word": "career",
+      "translation_ka": "კარიერა",
+      "category": 3,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 222,
+    "fields": {
+      "quiz_word": "project",
+      "translation_ka": "პროექტი",
+      "category": 3,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 223,
+    "fields": {
+      "quiz_word": "task",
+      "translation_ka": "დავალება",
+      "category": 3,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 224,
+    "fields": {
+      "quiz_word": "salary",
+      "translation_ka": "ხელფასი",
+      "category": 3,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 225,
+    "fields": {
+      "quiz_word": "experience",
+      "translation_ka": "გამოცდილება",
+      "category": 3,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 226,
+    "fields": {
+      "quiz_word": "contract",
+      "translation_ka": "კონტრაქტი",
+      "category": 3,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 227,
+    "fields": {
+      "quiz_word": "interview",
+      "translation_ka": "გასაუბრება",
+      "category": 3,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 228,
+    "fields": {
+      "quiz_word": "office worker",
+      "translation_ka": "ოფისის თანამშრომელი",
+      "category": 3,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 229,
+    "fields": {
+      "quiz_word": "company rules",
+      "translation_ka": "კომპანიის წესები",
+      "category": 3,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 230,
+    "fields": {
+      "quiz_word": "employee",
+      "translation_ka": "თანამშრომელი",
+      "category": 3,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 231,
+    "fields": {
+      "quiz_word": "subject",
+      "translation_ka": "საგანი",
+      "category": 4,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 232,
+    "fields": {
+      "quiz_word": "science",
+      "translation_ka": "მეცნიერება",
+      "category": 4,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 233,
+    "fields": {
+      "quiz_word": "history",
+      "translation_ka": "ისტორია",
+      "category": 4,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 234,
+    "fields": {
+      "quiz_word": "geography",
+      "translation_ka": "გეოგრაფია",
+      "category": 4,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 235,
+    "fields": {
+      "quiz_word": "mathematics",
+      "translation_ka": "მათემატიკა",
+      "category": 4,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 236,
+    "fields": {
+      "quiz_word": "exercise",
+      "translation_ka": "სავარჯიშო",
+      "category": 4,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 237,
+    "fields": {
+      "quiz_word": "report",
+      "translation_ka": "რეპორტი",
+      "category": 4,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 238,
+    "fields": {
+      "quiz_word": "test",
+      "translation_ka": "ტესტი",
+      "category": 4,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 239,
+    "fields": {
+      "quiz_word": "project work",
+      "translation_ka": "პროექტი",
+      "category": 4,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 240,
+    "fields": {
+      "quiz_word": "certificate",
+      "translation_ka": "სერტიფიკატი",
+      "category": 4,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 241,
+    "fields": {
+      "quiz_word": "smartphone",
+      "translation_ka": "სმარტფონი",
+      "category": 5,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 242,
+    "fields": {
+      "quiz_word": "message",
+      "translation_ka": "შეტყობინება",
+      "category": 5,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 243,
+    "fields": {
+      "quiz_word": "social media",
+      "translation_ka": "სოციალური მედია",
+      "category": 5,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 244,
+    "fields": {
+      "quiz_word": "profile",
+      "translation_ka": "პროფილი",
+      "category": 5,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 245,
+    "fields": {
+      "quiz_word": "account",
+      "translation_ka": "ანგარიში",
+      "category": 5,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 246,
+    "fields": {
+      "quiz_word": "login",
+      "translation_ka": "შესვლა",
+      "category": 5,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 247,
+    "fields": {
+      "quiz_word": "password",
+      "translation_ka": "პაროლი",
+      "category": 5,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 248,
+    "fields": {
+      "quiz_word": "upload",
+      "translation_ka": "ატვირთვა",
+      "category": 5,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 249,
+    "fields": {
+      "quiz_word": "download",
+      "translation_ka": "ჩამოტვირთვა",
+      "category": 5,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 250,
+    "fields": {
+      "quiz_word": "app",
+      "translation_ka": "აპლიკაცია",
+      "category": 5,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 251,
+    "fields": {
+      "quiz_word": "heart",
+      "translation_ka": "გული",
+      "category": 6,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 252,
+    "fields": {
+      "quiz_word": "blood",
+      "translation_ka": "სისხლი",
+      "category": 6,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 253,
+    "fields": {
+      "quiz_word": "brain",
+      "translation_ka": "ტვინი",
+      "category": 6,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 254,
+    "fields": {
+      "quiz_word": "stomach",
+      "translation_ka": "მუცელი",
+      "category": 6,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 255,
+    "fields": {
+      "quiz_word": "exercise",
+      "translation_ka": "ვარჯიში",
+      "category": 6,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 256,
+    "fields": {
+      "quiz_word": "diet",
+      "translation_ka": "დიეტა",
+      "category": 6,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 257,
+    "fields": {
+      "quiz_word": "disease",
+      "translation_ka": "დაავადება",
+      "category": 6,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 258,
+    "fields": {
+      "quiz_word": "injury",
+      "translation_ka": "დაზიანება",
+      "category": 6,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 259,
+    "fields": {
+      "quiz_word": "recovery",
+      "translation_ka": "აღდგენა",
+      "category": 6,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 260,
+    "fields": {
+      "quiz_word": "healthy lifestyle",
+      "translation_ka": "ჯანსაღი ცხოვრება",
+      "category": 6,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 261,
+    "fields": {
+      "quiz_word": "climate",
+      "translation_ka": "კლიმატი",
+      "category": 7,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 262,
+    "fields": {
+      "quiz_word": "forest",
+      "translation_ka": "ტყე",
+      "category": 7,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 263,
+    "fields": {
+      "quiz_word": "desert",
+      "translation_ka": "უდაბნო",
+      "category": 7,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 264,
+    "fields": {
+      "quiz_word": "valley",
+      "translation_ka": "ველი",
+      "category": 7,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 265,
+    "fields": {
+      "quiz_word": "hill",
+      "translation_ka": "ბორცვი",
+      "category": 7,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 266,
+    "fields": {
+      "quiz_word": "weather",
+      "translation_ka": "ამინდი",
+      "category": 7,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 267,
+    "fields": {
+      "quiz_word": "storm",
+      "translation_ka": "ქარიშხალი",
+      "category": 7,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 268,
+    "fields": {
+      "quiz_word": "earthquake",
+      "translation_ka": "მიწისძვრა",
+      "category": 7,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 269,
+    "fields": {
+      "quiz_word": "volcano",
+      "translation_ka": "ვულკანი",
+      "category": 7,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 270,
+    "fields": {
+      "quiz_word": "planet",
+      "translation_ka": "პლანეტა",
+      "category": 7,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 271,
+    "fields": {
+      "quiz_word": "apartment",
+      "translation_ka": "ბინა",
+      "category": 8,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 272,
+    "fields": {
+      "quiz_word": "furniture",
+      "translation_ka": "ავეჯი",
+      "category": 8,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 273,
+    "fields": {
+      "quiz_word": "cleaning",
+      "translation_ka": "დასუფთავება",
+      "category": 8,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 274,
+    "fields": {
+      "quiz_word": "washing machine",
+      "translation_ka": "სარეცხი მანქანა",
+      "category": 8,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 275,
+    "fields": {
+      "quiz_word": "refrigerator",
+      "translation_ka": "მაცივარი",
+      "category": 8,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 276,
+    "fields": {
+      "quiz_word": "vacuum cleaner",
+      "translation_ka": "მტვერსასრუტი",
+      "category": 8,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 277,
+    "fields": {
+      "quiz_word": "cooking",
+      "translation_ka": "მზარეული",
+      "category": 8,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 278,
+    "fields": {
+      "quiz_word": "shopping list",
+      "translation_ka": "საყიდლების სია",
+      "category": 8,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 279,
+    "fields": {
+      "quiz_word": "clean",
+      "translation_ka": "სუფთა",
+      "category": 8,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 280,
+    "fields": {
+      "quiz_word": "dirty",
+      "translation_ka": "ბინძური",
+      "category": 8,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 281,
+    "fields": {
+      "quiz_word": "worried",
+      "translation_ka": "დაფიქრებული",
+      "category": 9,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 282,
+    "fields": {
+      "quiz_word": "surprised",
+      "translation_ka": "გაკვირვებული",
+      "category": 9,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 283,
+    "fields": {
+      "quiz_word": "confident",
+      "translation_ka": "დარწმუნებული",
+      "category": 9,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 284,
+    "fields": {
+      "quiz_word": "brave",
+      "translation_ka": "მამაცი",
+      "category": 9,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 285,
+    "fields": {
+      "quiz_word": "polite",
+      "translation_ka": "ზრდილი",
+      "category": 9,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 286,
+    "fields": {
+      "quiz_word": "rude",
+      "translation_ka": "უწესო",
+      "category": 9,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 287,
+    "fields": {
+      "quiz_word": "serious",
+      "translation_ka": "სერიოზული",
+      "category": 9,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 288,
+    "fields": {
+      "quiz_word": "kind",
+      "translation_ka": "კეთილი",
+      "category": 9,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 289,
+    "fields": {
+      "quiz_word": "honest",
+      "translation_ka": "პატიოსანი",
+      "category": 9,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 290,
+    "fields": {
+      "quiz_word": "jealous",
+      "translation_ka": "შურიანი",
+      "category": 9,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 291,
+    "fields": {
+      "quiz_word": "government",
+      "translation_ka": "მთავრობა",
+      "category": 10,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 292,
+    "fields": {
+      "quiz_word": "politics",
+      "translation_ka": "პოლიტიკა",
+      "category": 10,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 293,
+    "fields": {
+      "quiz_word": "president",
+      "translation_ka": "პრეზიდენტი",
+      "category": 10,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 294,
+    "fields": {
+      "quiz_word": "vote",
+      "translation_ka": "ხმას მიცემა",
+      "category": 10,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 295,
+    "fields": {
+      "quiz_word": "rights",
+      "translation_ka": "უფლებები",
+      "category": 10,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 296,
+    "fields": {
+      "quiz_word": "freedom",
+      "translation_ka": "თავისუფლება",
+      "category": 10,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 297,
+    "fields": {
+      "quiz_word": "lawyer",
+      "translation_ka": "ადვოკატი",
+      "category": 10,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 298,
+    "fields": {
+      "quiz_word": "judge",
+      "translation_ka": "მოსამართლე",
+      "category": 10,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 299,
+    "fields": {
+      "quiz_word": "army",
+      "translation_ka": "არმია",
+      "category": 10,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 300,
+    "fields": {
+      "quiz_word": "society",
+      "translation_ka": "საზოგადოება",
+      "category": 10,
+      "level": 3
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 301,
+    "fields": {
+      "quiz_word": "cuisine",
+      "translation_ka": "სამზარეულო (კულინარია)",
+      "category": 1,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 302,
+    "fields": {
+      "quiz_word": "ingredient",
+      "translation_ka": "ინგრედიენტი",
+      "category": 1,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 303,
+    "fields": {
+      "quiz_word": "flavor",
+      "translation_ka": "გემო",
+      "category": 1,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 304,
+    "fields": {
+      "quiz_word": "spicy",
+      "translation_ka": "პიკანტური",
+      "category": 1,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 305,
+    "fields": {
+      "quiz_word": "bitter",
+      "translation_ka": "მწარე",
+      "category": 1,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 306,
+    "fields": {
+      "quiz_word": "savory",
+      "translation_ka": "გემრიელი/არატკბილი",
+      "category": 1,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 307,
+    "fields": {
+      "quiz_word": "portion",
+      "translation_ka": "პორცია",
+      "category": 1,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 308,
+    "fields": {
+      "quiz_word": "recipe",
+      "translation_ka": "რეცეპტი",
+      "category": 1,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 309,
+    "fields": {
+      "quiz_word": "vegetarian",
+      "translation_ka": "ვეგეტარიანელი",
+      "category": 1,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 310,
+    "fields": {
+      "quiz_word": "calories",
+      "translation_ka": "კალორიები",
+      "category": 1,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 311,
+    "fields": {
+      "quiz_word": "destination",
+      "translation_ka": "დანიშნულების ადგილი",
+      "category": 2,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 312,
+    "fields": {
+      "quiz_word": "schedule",
+      "translation_ka": "გრაფიკი",
+      "category": 2,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 313,
+    "fields": {
+      "quiz_word": "journey planner",
+      "translation_ka": "მოგზაურობის გეგმვა",
+      "category": 2,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 314,
+    "fields": {
+      "quiz_word": "accommodation",
+      "translation_ka": "ბინადრობა",
+      "category": 2,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 315,
+    "fields": {
+      "quiz_word": "reservation",
+      "translation_ka": "ჯავშანი",
+      "category": 2,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 316,
+    "fields": {
+      "quiz_word": "check-in",
+      "translation_ka": "შესვლა/ჩეკ-ინი",
+      "category": 2,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 317,
+    "fields": {
+      "quiz_word": "check-out",
+      "translation_ka": "გამოსვლა/ჩეკ-აუტი",
+      "category": 2,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 318,
+    "fields": {
+      "quiz_word": "excursion",
+      "translation_ka": "ექსკურსია",
+      "category": 2,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 319,
+    "fields": {
+      "quiz_word": "itinerary",
+      "translation_ka": "მარშრუტი",
+      "category": 2,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 320,
+    "fields": {
+      "quiz_word": "backpack",
+      "translation_ka": "ზურგჩანთა",
+      "category": 2,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 321,
+    "fields": {
+      "quiz_word": "entrepreneur",
+      "translation_ka": "მეწარმე",
+      "category": 3,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 322,
+    "fields": {
+      "quiz_word": "profit",
+      "translation_ka": "მოგება",
+      "category": 3,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 323,
+    "fields": {
+      "quiz_word": "loss",
+      "translation_ka": "ზარალი",
+      "category": 3,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 324,
+    "fields": {
+      "quiz_word": "partnership",
+      "translation_ka": "პარტნიორობა",
+      "category": 3,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 325,
+    "fields": {
+      "quiz_word": "negotiation",
+      "translation_ka": "მოლაპარაკება",
+      "category": 3,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 326,
+    "fields": {
+      "quiz_word": "opportunity",
+      "translation_ka": "შესაძლებლობა",
+      "category": 3,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 327,
+    "fields": {
+      "quiz_word": "responsibility",
+      "translation_ka": "პასუხისმგებლობა",
+      "category": 3,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 328,
+    "fields": {
+      "quiz_word": "promotion",
+      "translation_ka": "პრომოცია/აწინაურება",
+      "category": 3,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 329,
+    "fields": {
+      "quiz_word": "deadline",
+      "translation_ka": "დედლაინი",
+      "category": 3,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 330,
+    "fields": {
+      "quiz_word": "colleague",
+      "translation_ka": "კოლეგა",
+      "category": 3,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 331,
+    "fields": {
+      "quiz_word": "degree",
+      "translation_ka": "დიპლომი",
+      "category": 4,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 332,
+    "fields": {
+      "quiz_word": "lecture",
+      "translation_ka": "ლექცია",
+      "category": 4,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 333,
+    "fields": {
+      "quiz_word": "seminar",
+      "translation_ka": "სემინარი",
+      "category": 4,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 334,
+    "fields": {
+      "quiz_word": "curriculum",
+      "translation_ka": "სასწავლო გეგმა",
+      "category": 4,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 335,
+    "fields": {
+      "quiz_word": "scholarship",
+      "translation_ka": "სტიპენდია",
+      "category": 4,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 336,
+    "fields": {
+      "quiz_word": "diploma",
+      "translation_ka": "დიპლომი",
+      "category": 4,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 337,
+    "fields": {
+      "quiz_word": "knowledge",
+      "translation_ka": "ცოდნა",
+      "category": 4,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 338,
+    "fields": {
+      "quiz_word": "research",
+      "translation_ka": "კვლევა",
+      "category": 4,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 339,
+    "fields": {
+      "quiz_word": "library",
+      "translation_ka": "ბიბლიოთეკა",
+      "category": 4,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 340,
+    "fields": {
+      "quiz_word": "graduation",
+      "translation_ka": "დამთავრება",
+      "category": 4,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 341,
+    "fields": {
+      "quiz_word": "software",
+      "translation_ka": "პროგრამული უზრუნველყოფა",
+      "category": 5,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 342,
+    "fields": {
+      "quiz_word": "hardware",
+      "translation_ka": "მოწყობილობა",
+      "category": 5,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 343,
+    "fields": {
+      "quiz_word": "database",
+      "translation_ka": "მონაცემთა ბაზა",
+      "category": 5,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 344,
+    "fields": {
+      "quiz_word": "programmer",
+      "translation_ka": "პროგრამისტი",
+      "category": 5,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 345,
+    "fields": {
+      "quiz_word": "server",
+      "translation_ka": "სერვერი",
+      "category": 5,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 346,
+    "fields": {
+      "quiz_word": "application",
+      "translation_ka": "აპლიკაცია",
+      "category": 5,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 347,
+    "fields": {
+      "quiz_word": "network",
+      "translation_ka": "ქსელი",
+      "category": 5,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 348,
+    "fields": {
+      "quiz_word": "security",
+      "translation_ka": "უსაფრთხოება",
+      "category": 5,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 349,
+    "fields": {
+      "quiz_word": "data",
+      "translation_ka": "მონაცემები",
+      "category": 5,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 350,
+    "fields": {
+      "quiz_word": "update",
+      "translation_ka": "განახლება",
+      "category": 5,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 351,
+    "fields": {
+      "quiz_word": "symptom",
+      "translation_ka": "სიმპტომი",
+      "category": 6,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 352,
+    "fields": {
+      "quiz_word": "treatment",
+      "translation_ka": "მკურნალობა",
+      "category": 6,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 353,
+    "fields": {
+      "quiz_word": "surgery",
+      "translation_ka": "ოპერაცია",
+      "category": 6,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 354,
+    "fields": {
+      "quiz_word": "infection",
+      "translation_ka": "ინფექცია",
+      "category": 6,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 355,
+    "fields": {
+      "quiz_word": "allergy",
+      "translation_ka": "ალერგია",
+      "category": 6,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 356,
+    "fields": {
+      "quiz_word": "medicine",
+      "translation_ka": "მედიკამენტი",
+      "category": 6,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 357,
+    "fields": {
+      "quiz_word": "therapy",
+      "translation_ka": "თერაპია",
+      "category": 6,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 358,
+    "fields": {
+      "quiz_word": "dental",
+      "translation_ka": "სტომატოლოგიური",
+      "category": 6,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 359,
+    "fields": {
+      "quiz_word": "mental health",
+      "translation_ka": "მენტალური ჯანმრთელობა",
+      "category": 6,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 360,
+    "fields": {
+      "quiz_word": "recovery process",
+      "translation_ka": "აღდგენის პროცესი",
+      "category": 6,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 361,
+    "fields": {
+      "quiz_word": "wildlife",
+      "translation_ka": "ველური ბუნება",
+      "category": 7,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 362,
+    "fields": {
+      "quiz_word": "species",
+      "translation_ka": "სახეობა",
+      "category": 7,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 363,
+    "fields": {
+      "quiz_word": "conservation",
+      "translation_ka": "დაცვა (ბუნების)",
+      "category": 7,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 364,
+    "fields": {
+      "quiz_word": "pollution",
+      "translation_ka": "დაბინძურება",
+      "category": 7,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 365,
+    "fields": {
+      "quiz_word": "recycle",
+      "translation_ka": "გადამუშავება",
+      "category": 7,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 366,
+    "fields": {
+      "quiz_word": "global warming",
+      "translation_ka": "გლობალური დათბობა",
+      "category": 7,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 367,
+    "fields": {
+      "quiz_word": "ozone layer",
+      "translation_ka": "ოზონის ფენა",
+      "category": 7,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 368,
+    "fields": {
+      "quiz_word": "endangered",
+      "translation_ka": "გადაშენების პირას მყოფი",
+      "category": 7,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 369,
+    "fields": {
+      "quiz_word": "habitat",
+      "translation_ka": "საბინადრო გარემო",
+      "category": 7,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 370,
+    "fields": {
+      "quiz_word": "ecosystem",
+      "translation_ka": "ეკოსისტემა",
+      "category": 7,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 371,
+    "fields": {
+      "quiz_word": "balcony",
+      "translation_ka": "აივანი",
+      "category": 8,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 372,
+    "fields": {
+      "quiz_word": "garage",
+      "translation_ka": "გარაჟი",
+      "category": 8,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 373,
+    "fields": {
+      "quiz_word": "attic",
+      "translation_ka": "სარდაფი/სხვენი",
+      "category": 8,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 374,
+    "fields": {
+      "quiz_word": "yard",
+      "translation_ka": "ეზო",
+      "category": 8,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 375,
+    "fields": {
+      "quiz_word": "stairs",
+      "translation_ka": "კიბეები",
+      "category": 8,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 376,
+    "fields": {
+      "quiz_word": "heating",
+      "translation_ka": "გათბობა",
+      "category": 8,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 377,
+    "fields": {
+      "quiz_word": "air conditioning",
+      "translation_ka": "კონდიციონერი",
+      "category": 8,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 378,
+    "fields": {
+      "quiz_word": "fence",
+      "translation_ka": "ღობე",
+      "category": 8,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 379,
+    "fields": {
+      "quiz_word": "roof",
+      "translation_ka": "სახურავი",
+      "category": 8,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 380,
+    "fields": {
+      "quiz_word": "basement",
+      "translation_ka": "სარდაფი",
+      "category": 8,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 381,
+    "fields": {
+      "quiz_word": "optimistic",
+      "translation_ka": "ოპტიმისტი",
+      "category": 9,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 382,
+    "fields": {
+      "quiz_word": "pessimistic",
+      "translation_ka": "პესიმისტი",
+      "category": 9,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 383,
+    "fields": {
+      "quiz_word": "enthusiastic",
+      "translation_ka": "ენთუზიაზმით სავსე",
+      "category": 9,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 384,
+    "fields": {
+      "quiz_word": "sensitive",
+      "translation_ka": "მგრძნობიარე",
+      "category": 9,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 385,
+    "fields": {
+      "quiz_word": "generous",
+      "translation_ka": "მომთმენი",
+      "category": 9,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 386,
+    "fields": {
+      "quiz_word": "selfish",
+      "translation_ka": "ეგოისტი",
+      "category": 9,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 387,
+    "fields": {
+      "quiz_word": "moody",
+      "translation_ka": "ხასიათის ცვალებადი",
+      "category": 9,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 388,
+    "fields": {
+      "quiz_word": "curious",
+      "translation_ka": "ცნობისმოყვარე",
+      "category": 9,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 389,
+    "fields": {
+      "quiz_word": "creative",
+      "translation_ka": "შემოქმედებითი",
+      "category": 9,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 390,
+    "fields": {
+      "quiz_word": "sociable",
+      "translation_ka": "კომუნიკაბელური",
+      "category": 9,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 391,
+    "fields": {
+      "quiz_word": "culture",
+      "translation_ka": "კულტურა",
+      "category": 10,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 392,
+    "fields": {
+      "quiz_word": "civilization",
+      "translation_ka": "ცივილიზაცია",
+      "category": 10,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 393,
+    "fields": {
+      "quiz_word": "heritage",
+      "translation_ka": "მემკვიდრეობა",
+      "category": 10,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 394,
+    "fields": {
+      "quiz_word": "religion",
+      "translation_ka": "რელიგია",
+      "category": 10,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 395,
+    "fields": {
+      "quiz_word": "philosophy",
+      "translation_ka": "ფილოსოფია",
+      "category": 10,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 396,
+    "fields": {
+      "quiz_word": "literature",
+      "translation_ka": "ლიტერატურა",
+      "category": 10,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 397,
+    "fields": {
+      "quiz_word": "art",
+      "translation_ka": "ხელოვნება",
+      "category": 10,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 398,
+    "fields": {
+      "quiz_word": "tradition",
+      "translation_ka": "ტრადიცია",
+      "category": 10,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 399,
+    "fields": {
+      "quiz_word": "festival",
+      "translation_ka": "ფესტივალი",
+      "category": 10,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 400,
+    "fields": {
+      "quiz_word": "community",
+      "translation_ka": "საზოგადოება",
+      "category": 10,
+      "level": 4
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 401,
+    "fields": {
+      "quiz_word": "nutrition",
+      "translation_ka": "კვება (ნუტრიცია)",
+      "category": 1,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 402,
+    "fields": {
+      "quiz_word": "organic",
+      "translation_ka": "ორგანული",
+      "category": 1,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 403,
+    "fields": {
+      "quiz_word": "preservative",
+      "translation_ka": "კონსერვანტი",
+      "category": 1,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 404,
+    "fields": {
+      "quiz_word": "balanced diet",
+      "translation_ka": "ბალანსირებული დიეტა",
+      "category": 1,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 405,
+    "fields": {
+      "quiz_word": "processed food",
+      "translation_ka": "დამუშავებული საკვები",
+      "category": 1,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 406,
+    "fields": {
+      "quiz_word": "caffeine",
+      "translation_ka": "კოფეინი",
+      "category": 1,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 407,
+    "fields": {
+      "quiz_word": "additive",
+      "translation_ka": "დანამატი",
+      "category": 1,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 408,
+    "fields": {
+      "quiz_word": "malnutrition",
+      "translation_ka": "შიმშილი/არაჯანსაღი კვება",
+      "category": 1,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 409,
+    "fields": {
+      "quiz_word": "vitamin",
+      "translation_ka": "ვიტამინი",
+      "category": 1,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 410,
+    "fields": {
+      "quiz_word": "mineral",
+      "translation_ka": "მინერალი",
+      "category": 1,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 411,
+    "fields": {
+      "quiz_word": "immigration",
+      "translation_ka": "იმიგრაცია",
+      "category": 2,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 412,
+    "fields": {
+      "quiz_word": "emigration",
+      "translation_ka": "ემიგრაცია",
+      "category": 2,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 413,
+    "fields": {
+      "quiz_word": "customs",
+      "translation_ka": "საბაჟო",
+      "category": 2,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 414,
+    "fields": {
+      "quiz_word": "embassy",
+      "translation_ka": "საკონსულო/საგარეო უწყება",
+      "category": 2,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 415,
+    "fields": {
+      "quiz_word": "consulate",
+      "translation_ka": "კონსულატი",
+      "category": 2,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 416,
+    "fields": {
+      "quiz_word": "tourism industry",
+      "translation_ka": "ტურიზმის ინდუსტრია",
+      "category": 2,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 417,
+    "fields": {
+      "quiz_word": "cultural exchange",
+      "translation_ka": "კულტურული გაცვლა",
+      "category": 2,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 418,
+    "fields": {
+      "quiz_word": "expedition",
+      "translation_ka": "ექსპედიცია",
+      "category": 2,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 419,
+    "fields": {
+      "quiz_word": "admission fee",
+      "translation_ka": "შესვლის საფასური",
+      "category": 2,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 420,
+    "fields": {
+      "quiz_word": "souvenir",
+      "translation_ka": "სუვენირი",
+      "category": 2,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 421,
+    "fields": {
+      "quiz_word": "productivity",
+      "translation_ka": "პროდუქტიულობა",
+      "category": 3,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 422,
+    "fields": {
+      "quiz_word": "efficiency",
+      "translation_ka": "ეფექტურობა",
+      "category": 3,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 423,
+    "fields": {
+      "quiz_word": "leadership",
+      "translation_ka": "ხელმძღვანელობა",
+      "category": 3,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 424,
+    "fields": {
+      "quiz_word": "supervision",
+      "translation_ka": "მეთვალყურეობა",
+      "category": 3,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 425,
+    "fields": {
+      "quiz_word": "entrepreneurship",
+      "translation_ka": "მეწარმეობა",
+      "category": 3,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 426,
+    "fields": {
+      "quiz_word": "investment",
+      "translation_ka": "ინვესტიცია",
+      "category": 3,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 427,
+    "fields": {
+      "quiz_word": "bankruptcy",
+      "translation_ka": "გაკოტრება",
+      "category": 3,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 428,
+    "fields": {
+      "quiz_word": "strategy",
+      "translation_ka": "სტრატეგია",
+      "category": 3,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 429,
+    "fields": {
+      "quiz_word": "negotiator",
+      "translation_ka": "მოლაპარაკე",
+      "category": 3,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 430,
+    "fields": {
+      "quiz_word": "organization",
+      "translation_ka": "ორგანიზაცია",
+      "category": 3,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 431,
+    "fields": {
+      "quiz_word": "analysis",
+      "translation_ka": "ანალიზი",
+      "category": 4,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 432,
+    "fields": {
+      "quiz_word": "hypothesis",
+      "translation_ka": "ჰიპოთეზა",
+      "category": 4,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 433,
+    "fields": {
+      "quiz_word": "experiment",
+      "translation_ka": "ექსპერიმენტი",
+      "category": 4,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 434,
+    "fields": {
+      "quiz_word": "laboratory",
+      "translation_ka": "ლაბორატორია",
+      "category": 4,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 435,
+    "fields": {
+      "quiz_word": "statistics",
+      "translation_ka": "სტატისტიკა",
+      "category": 4,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 436,
+    "fields": {
+      "quiz_word": "theory",
+      "translation_ka": "თეორია",
+      "category": 4,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 437,
+    "fields": {
+      "quiz_word": "thesis",
+      "translation_ka": "თეზისი",
+      "category": 4,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 438,
+    "fields": {
+      "quiz_word": "scholar",
+      "translation_ka": "მეცნიერი",
+      "category": 4,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 439,
+    "fields": {
+      "quiz_word": "academic",
+      "translation_ka": "აკადემიური",
+      "category": 4,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 440,
+    "fields": {
+      "quiz_word": "discipline",
+      "translation_ka": "დისციპლინა",
+      "category": 4,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 441,
+    "fields": {
+      "quiz_word": "innovation",
+      "translation_ka": "ინოვაცია",
+      "category": 5,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 442,
+    "fields": {
+      "quiz_word": "artificial intelligence",
+      "translation_ka": "ხელოვნური ინტელექტი",
+      "category": 5,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 443,
+    "fields": {
+      "quiz_word": "virtual reality",
+      "translation_ka": "ვირტუალური რეალობა",
+      "category": 5,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 444,
+    "fields": {
+      "quiz_word": "robotics",
+      "translation_ka": "რობოტიკა",
+      "category": 5,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 445,
+    "fields": {
+      "quiz_word": "cybersecurity",
+      "translation_ka": "კიბერ უსაფრთხოება",
+      "category": 5,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 446,
+    "fields": {
+      "quiz_word": "blockchain",
+      "translation_ka": "ბლოკჩეინი",
+      "category": 5,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 447,
+    "fields": {
+      "quiz_word": "algorithm",
+      "translation_ka": "ალგორითმი",
+      "category": 5,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 448,
+    "fields": {
+      "quiz_word": "cloud computing",
+      "translation_ka": "ღრუბლოვანი ტექნოლოგია",
+      "category": 5,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 449,
+    "fields": {
+      "quiz_word": "encryption",
+      "translation_ka": "დაშიფვრა",
+      "category": 5,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 450,
+    "fields": {
+      "quiz_word": "interface",
+      "translation_ka": "ინტერფეისი",
+      "category": 5,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 451,
+    "fields": {
+      "quiz_word": "cardiovascular",
+      "translation_ka": "გულ-სისხლძარღვოვანი",
+      "category": 6,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 452,
+    "fields": {
+      "quiz_word": "respiratory",
+      "translation_ka": "სასუნთქი",
+      "category": 6,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 453,
+    "fields": {
+      "quiz_word": "immune system",
+      "translation_ka": "იმუნური სისტემა",
+      "category": 6,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 454,
+    "fields": {
+      "quiz_word": "vaccination",
+      "translation_ka": "ვაქცინაცია",
+      "category": 6,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 455,
+    "fields": {
+      "quiz_word": "epidemic",
+      "translation_ka": "ეპიდემია",
+      "category": 6,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 456,
+    "fields": {
+      "quiz_word": "pandemic",
+      "translation_ka": "პანდემია",
+      "category": 6,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 457,
+    "fields": {
+      "quiz_word": "diagnosis",
+      "translation_ka": "დიაგნოზი",
+      "category": 6,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 458,
+    "fields": {
+      "quiz_word": "treatment plan",
+      "translation_ka": "მკურნალობის გეგმა",
+      "category": 6,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 459,
+    "fields": {
+      "quiz_word": "rehabilitation",
+      "translation_ka": "რეაბილიტაცია",
+      "category": 6,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 460,
+    "fields": {
+      "quiz_word": "suffering",
+      "translation_ka": "ტანჯვა",
+      "category": 6,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 461,
+    "fields": {
+      "quiz_word": "biodiversity",
+      "translation_ka": "ბიომრავალფეროვნება",
+      "category": 7,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 462,
+    "fields": {
+      "quiz_word": "sustainability",
+      "translation_ka": "მდგრადობა",
+      "category": 7,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 463,
+    "fields": {
+      "quiz_word": "renewable energy",
+      "translation_ka": "განახლებადი ენერგია",
+      "category": 7,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 464,
+    "fields": {
+      "quiz_word": "fossil fuels",
+      "translation_ka": "ფოსილური საწვავი",
+      "category": 7,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 465,
+    "fields": {
+      "quiz_word": "deforestation",
+      "translation_ka": "ტყის გაჩეხვა",
+      "category": 7,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 466,
+    "fields": {
+      "quiz_word": "erosion",
+      "translation_ka": "ეროზია",
+      "category": 7,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 467,
+    "fields": {
+      "quiz_word": "carbon footprint",
+      "translation_ka": "ნახშირბადის კვალდაკვალ",
+      "category": 7,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 468,
+    "fields": {
+      "quiz_word": "reforestation",
+      "translation_ka": "ტყის აღდგენა",
+      "category": 7,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 469,
+    "fields": {
+      "quiz_word": "glacier",
+      "translation_ka": "ყინულმთოვარი",
+      "category": 7,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 470,
+    "fields": {
+      "quiz_word": "sustain",
+      "translation_ka": "შენარჩუნება",
+      "category": 7,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 471,
+    "fields": {
+      "quiz_word": "appliance",
+      "translation_ka": "საყოფაცხოვრებო მოწყობილობა",
+      "category": 8,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 472,
+    "fields": {
+      "quiz_word": "renovation",
+      "translation_ka": "რემონტი",
+      "category": 8,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 473,
+    "fields": {
+      "quiz_word": "interior design",
+      "translation_ka": "ინტერიერის დიზაინი",
+      "category": 8,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 474,
+    "fields": {
+      "quiz_word": "landlord",
+      "translation_ka": "მეპატრონე",
+      "category": 8,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 475,
+    "fields": {
+      "quiz_word": "tenant",
+      "translation_ka": "დამქირავებელი",
+      "category": 8,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 476,
+    "fields": {
+      "quiz_word": "mortgage",
+      "translation_ka": "იპოთეკა",
+      "category": 8,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 477,
+    "fields": {
+      "quiz_word": "real estate",
+      "translation_ka": "უძრავი ქონება",
+      "category": 8,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 478,
+    "fields": {
+      "quiz_word": "utility bills",
+      "translation_ka": "კომუნალური გადასახადები",
+      "category": 8,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 479,
+    "fields": {
+      "quiz_word": "furnishings",
+      "translation_ka": "ავეჯი/დეკორაცია",
+      "category": 8,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 480,
+    "fields": {
+      "quiz_word": "lease",
+      "translation_ka": "ქირაობა",
+      "category": 8,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 481,
+    "fields": {
+      "quiz_word": "anxious",
+      "translation_ka": "შეშფოთებული",
+      "category": 9,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 482,
+    "fields": {
+      "quiz_word": "frustrated",
+      "translation_ka": "გაწბილებული",
+      "category": 9,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 483,
+    "fields": {
+      "quiz_word": "relieved",
+      "translation_ka": "შვებით",
+      "category": 9,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 484,
+    "fields": {
+      "quiz_word": "overwhelmed",
+      "translation_ka": "დაუძლურებული",
+      "category": 9,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 485,
+    "fields": {
+      "quiz_word": "compassionate",
+      "translation_ka": "সহმგრძნობიარე",
+      "category": 9,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 486,
+    "fields": {
+      "quiz_word": "resentful",
+      "translation_ka": "გაბრაზებული",
+      "category": 9,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 487,
+    "fields": {
+      "quiz_word": "sympathetic",
+      "translation_ka": "საძმო",
+      "category": 9,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 488,
+    "fields": {
+      "quiz_word": "indifferent",
+      "translation_ka": "გაურკვეველი",
+      "category": 9,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 489,
+    "fields": {
+      "quiz_word": "caring",
+      "translation_ka": "მზრუნველი",
+      "category": 9,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 490,
+    "fields": {
+      "quiz_word": "determined",
+      "translation_ka": "მტკიცე",
+      "category": 9,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 491,
+    "fields": {
+      "quiz_word": "constitution",
+      "translation_ka": "კონსტიტუცია",
+      "category": 10,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 492,
+    "fields": {
+      "quiz_word": "parliament",
+      "translation_ka": "პარლამენტი",
+      "category": 10,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 493,
+    "fields": {
+      "quiz_word": "legislation",
+      "translation_ka": "კანონმდებლობა",
+      "category": 10,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 494,
+    "fields": {
+      "quiz_word": "bureaucracy",
+      "translation_ka": "ბიუროკრატია",
+      "category": 10,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 495,
+    "fields": {
+      "quiz_word": "diplomacy",
+      "translation_ka": "დიპლომატია",
+      "category": 10,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 496,
+    "fields": {
+      "quiz_word": "conflict",
+      "translation_ka": "კონფლიქტი",
+      "category": 10,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 497,
+    "fields": {
+      "quiz_word": "revolution",
+      "translation_ka": "რევოლუცია",
+      "category": 10,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 498,
+    "fields": {
+      "quiz_word": "civil rights",
+      "translation_ka": "სამოქალაქო უფლებები",
+      "category": 10,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 499,
+    "fields": {
+      "quiz_word": "minority",
+      "translation_ka": "უმცირესობა",
+      "category": 10,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 500,
+    "fields": {
+      "quiz_word": "activist",
+      "translation_ka": "აქტივისტი",
+      "category": 10,
+      "level": 5
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 501,
+    "fields": {
+      "quiz_word": "gourmet",
+      "translation_ka": "გურმანი",
+      "category": 1,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 502,
+    "fields": {
+      "quiz_word": "microwave meal",
+      "translation_ka": "მიკროტალღური კერძი",
+      "category": 1,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 503,
+    "fields": {
+      "quiz_word": "starvation",
+      "translation_ka": "შიმშილი",
+      "category": 1,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 504,
+    "fields": {
+      "quiz_word": "artificial sweetener",
+      "translation_ka": "ხელოვნური დამტკბობელი",
+      "category": 1,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 505,
+    "fields": {
+      "quiz_word": "obesity",
+      "translation_ka": "სიმსუქნე",
+      "category": 1,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 506,
+    "fields": {
+      "quiz_word": "intolerance",
+      "translation_ka": "მოუთმენლობა (კვებითი)",
+      "category": 1,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 507,
+    "fields": {
+      "quiz_word": "saturated fat",
+      "translation_ka": "გაჯერებული ცხიმი",
+      "category": 1,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 508,
+    "fields": {
+      "quiz_word": "cholesterol",
+      "translation_ka": "ქოლესტერინი",
+      "category": 1,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 509,
+    "fields": {
+      "quiz_word": "metabolism",
+      "translation_ka": "მეტაბოლიზმი",
+      "category": 1,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 510,
+    "fields": {
+      "quiz_word": "wholegrain",
+      "translation_ka": "მთელი მარცვლეული",
+      "category": 1,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 511,
+    "fields": {
+      "quiz_word": "multinational",
+      "translation_ka": "მულტინაციონალური",
+      "category": 2,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 512,
+    "fields": {
+      "quiz_word": "globalization",
+      "translation_ka": "გლობალიზაცია",
+      "category": 2,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 513,
+    "fields": {
+      "quiz_word": "passport control",
+      "translation_ka": "პასპორტის კონტროლი",
+      "category": 2,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 514,
+    "fields": {
+      "quiz_word": "currency exchange",
+      "translation_ka": "ვალუტის გაცვლა",
+      "category": 2,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 515,
+    "fields": {
+      "quiz_word": "travel insurance",
+      "translation_ka": "მოგზაურობის დაზღვევა",
+      "category": 2,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 516,
+    "fields": {
+      "quiz_word": "package holiday",
+      "translation_ka": "პაკეტური ტური",
+      "category": 2,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 517,
+    "fields": {
+      "quiz_word": "long-haul flight",
+      "translation_ka": "გრძელმიმართული ფრენა",
+      "category": 2,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 518,
+    "fields": {
+      "quiz_word": "jet lag",
+      "translation_ka": "დროის ზონის ცვლა",
+      "category": 2,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 519,
+    "fields": {
+      "quiz_word": "sightseer",
+      "translation_ka": "ღირსშესანიშნაობების დამთვალიერებელი",
+      "category": 2,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 520,
+    "fields": {
+      "quiz_word": "visa requirement",
+      "translation_ka": "ვიზის მოთხოვნა",
+      "category": 2,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 521,
+    "fields": {
+      "quiz_word": "hierarchy",
+      "translation_ka": "იერარქია",
+      "category": 3,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 522,
+    "fields": {
+      "quiz_word": "recruitment",
+      "translation_ka": "გაყვანა/დასაქმება",
+      "category": 3,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 523,
+    "fields": {
+      "quiz_word": "outsourcing",
+      "translation_ka": "აუთსორსინგი",
+      "category": 3,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 524,
+    "fields": {
+      "quiz_word": "overtime",
+      "translation_ka": "ზეგანაკვეთური",
+      "category": 3,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 525,
+    "fields": {
+      "quiz_word": "redundancy",
+      "translation_ka": "დაკომპლექტება",
+      "category": 3,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 526,
+    "fields": {
+      "quiz_word": "pension",
+      "translation_ka": "პენსია",
+      "category": 3,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 527,
+    "fields": {
+      "quiz_word": "corporate culture",
+      "translation_ka": "კორპორაციული კულტურა",
+      "category": 3,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 528,
+    "fields": {
+      "quiz_word": "job satisfaction",
+      "translation_ka": "სამუშაო კმაყოფილება",
+      "category": 3,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 529,
+    "fields": {
+      "quiz_word": "trade union",
+      "translation_ka": "პროფკავშირი",
+      "category": 3,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 530,
+    "fields": {
+      "quiz_word": "internship",
+      "translation_ka": "სტაჟირება",
+      "category": 3,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 531,
+    "fields": {
+      "quiz_word": "doctoral degree",
+      "translation_ka": "დოქტორის ხარისხი",
+      "category": 4,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 532,
+    "fields": {
+      "quiz_word": "dissertation",
+      "translation_ka": "დისერტაცია",
+      "category": 4,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 533,
+    "fields": {
+      "quiz_word": "fieldwork",
+      "translation_ka": "საველე სამუშაო",
+      "category": 4,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 534,
+    "fields": {
+      "quiz_word": "methodology",
+      "translation_ka": "მეთოდოლოგია",
+      "category": 4,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 535,
+    "fields": {
+      "quiz_word": "peer review",
+      "translation_ka": "თანატოლთა შეფასება",
+      "category": 4,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 536,
+    "fields": {
+      "quiz_word": "plagiarism",
+      "translation_ka": "პლაგიატი",
+      "category": 4,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 537,
+    "fields": {
+      "quiz_word": "publication",
+      "translation_ka": "პუბლიკაცია",
+      "category": 4,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 538,
+    "fields": {
+      "quiz_word": "academic journal",
+      "translation_ka": "აკადემიური ჟურნალი",
+      "category": 4,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 539,
+    "fields": {
+      "quiz_word": "literacy",
+      "translation_ka": "წიგნიერება",
+      "category": 4,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 540,
+    "fields": {
+      "quiz_word": "numeracy",
+      "translation_ka": "არითმეტიკული უნარი",
+      "category": 4,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 541,
+    "fields": {
+      "quiz_word": "programming language",
+      "translation_ka": "პროგრამირების ენა",
+      "category": 5,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 542,
+    "fields": {
+      "quiz_word": "debugging",
+      "translation_ka": "დისბაგინგი",
+      "category": 5,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 543,
+    "fields": {
+      "quiz_word": "framework",
+      "translation_ka": "ფრემვორკი",
+      "category": 5,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 544,
+    "fields": {
+      "quiz_word": "compiler",
+      "translation_ka": "კომპილატორი",
+      "category": 5,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 545,
+    "fields": {
+      "quiz_word": "syntax",
+      "translation_ka": "სინტაქსი",
+      "category": 5,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 546,
+    "fields": {
+      "quiz_word": "open source",
+      "translation_ka": "ღია წყარო",
+      "category": 5,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 547,
+    "fields": {
+      "quiz_word": "proprietary software",
+      "translation_ka": "პატენტირებული პროგრამა",
+      "category": 5,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 548,
+    "fields": {
+      "quiz_word": "simulation",
+      "translation_ka": "სიმულაცია",
+      "category": 5,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 549,
+    "fields": {
+      "quiz_word": "virtual machine",
+      "translation_ka": "ვირტუალური მანქანა",
+      "category": 5,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 550,
+    "fields": {
+      "quiz_word": "binary code",
+      "translation_ka": "ბინარული კოდი",
+      "category": 5,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 551,
+    "fields": {
+      "quiz_word": "addiction",
+      "translation_ka": "დამოკიდებულება",
+      "category": 6,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 552,
+    "fields": {
+      "quiz_word": "withdrawal",
+      "translation_ka": "გამოწვევა (სიმპტომები)",
+      "category": 6,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 553,
+    "fields": {
+      "quiz_word": "placebo",
+      "translation_ka": "პლაცებო",
+      "category": 6,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 554,
+    "fields": {
+      "quiz_word": "diagnostic",
+      "translation_ka": "დიაგნოსტიკური",
+      "category": 6,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 555,
+    "fields": {
+      "quiz_word": "immune response",
+      "translation_ka": "იმუნური პასუხი",
+      "category": 6,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 556,
+    "fields": {
+      "quiz_word": "chronic",
+      "translation_ka": "ქრონიკული",
+      "category": 6,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 557,
+    "fields": {
+      "quiz_word": "acute",
+      "translation_ka": "მკვეთრი (მდგომარეობა)",
+      "category": 6,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 558,
+    "fields": {
+      "quiz_word": "symptomatic",
+      "translation_ka": "სიმპტომური",
+      "category": 6,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 559,
+    "fields": {
+      "quiz_word": "nutrient deficiency",
+      "translation_ka": "ნუტრიენტების ნაკლებობა",
+      "category": 6,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 560,
+    "fields": {
+      "quiz_word": "rehab",
+      "translation_ka": "რეაბილიტაცია (რეაბ)",
+      "category": 6,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 561,
+    "fields": {
+      "quiz_word": "landscape",
+      "translation_ka": "ლანდშაფტი",
+      "category": 7,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 562,
+    "fields": {
+      "quiz_word": "topography",
+      "translation_ka": "ტოპოგრაფია",
+      "category": 7,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 563,
+    "fields": {
+      "quiz_word": "erosion control",
+      "translation_ka": "ეროზიის კონტროლი",
+      "category": 7,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 564,
+    "fields": {
+      "quiz_word": "endangered species",
+      "translation_ka": "გადაშენების პირას მყოფი სახეობა",
+      "category": 7,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 565,
+    "fields": {
+      "quiz_word": "ecology",
+      "translation_ka": "ეკოლოგია",
+      "category": 7,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 566,
+    "fields": {
+      "quiz_word": "sustain ecological balance",
+      "translation_ka": "ეკოლოგიური ბალანსის შენარჩუნება",
+      "category": 7,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 567,
+    "fields": {
+      "quiz_word": "deforestation rate",
+      "translation_ka": "ტყის გაჩეხვის მაჩვენებელი",
+      "category": 7,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 568,
+    "fields": {
+      "quiz_word": "conservation area",
+      "translation_ka": "დაცული ტერიტორია",
+      "category": 7,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 569,
+    "fields": {
+      "quiz_word": "marine life",
+      "translation_ka": "ზღვის ცხოვრება",
+      "category": 7,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 570,
+    "fields": {
+      "quiz_word": "climate change",
+      "translation_ka": "კლიმატის ცვლილება",
+      "category": 7,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 571,
+    "fields": {
+      "quiz_word": "property value",
+      "translation_ka": "ქონების ღირებულება",
+      "category": 8,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 572,
+    "fields": {
+      "quiz_word": "housing crisis",
+      "translation_ka": "საცხოვრებელი კრიზისი",
+      "category": 8,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 573,
+    "fields": {
+      "quiz_word": "urban planning",
+      "translation_ka": "ქალაქური დაგეგმარება",
+      "category": 8,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 574,
+    "fields": {
+      "quiz_word": "suburb",
+      "translation_ka": "მიუდამი",
+      "category": 8,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 575,
+    "fields": {
+      "quiz_word": "tenant rights",
+      "translation_ka": "ქირავნობის უფლებები",
+      "category": 8,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 576,
+    "fields": {
+      "quiz_word": "household chores",
+      "translation_ka": "საოჯახო საქმეები",
+      "category": 8,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 577,
+    "fields": {
+      "quiz_word": "domestic appliance",
+      "translation_ka": "საყოფაცხოვრებო ტექნიკა",
+      "category": 8,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 578,
+    "fields": {
+      "quiz_word": "landlord obligations",
+      "translation_ka": "მეპატრონის ვალდებულებები",
+      "category": 8,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 579,
+    "fields": {
+      "quiz_word": "lease agreement",
+      "translation_ka": "ქირავნობის ხელშეკრულება",
+      "category": 8,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 580,
+    "fields": {
+      "quiz_word": "building regulations",
+      "translation_ka": "სამშენებლო რეგულაციები",
+      "category": 8,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 581,
+    "fields": {
+      "quiz_word": "resentment",
+      "translation_ka": "გაბრაზება/უკმაყოფილება",
+      "category": 9,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 582,
+    "fields": {
+      "quiz_word": "affectionate",
+      "translation_ka": "მიყვარულიანი",
+      "category": 9,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 583,
+    "fields": {
+      "quiz_word": "irritated",
+      "translation_ka": "გაღიზიანებული",
+      "category": 9,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 584,
+    "fields": {
+      "quiz_word": "devastated",
+      "translation_ka": "დამსხვრეული",
+      "category": 9,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 585,
+    "fields": {
+      "quiz_word": "grateful",
+      "translation_ka": "მადლიერი",
+      "category": 9,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 586,
+    "fields": {
+      "quiz_word": "guilty",
+      "translation_ka": "დანაშაულის გრძნობა",
+      "category": 9,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 587,
+    "fields": {
+      "quiz_word": "nostalgic",
+      "translation_ka": "ნოსტალგიური",
+      "category": 9,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 588,
+    "fields": {
+      "quiz_word": "sympathetic",
+      "translation_ka": "საწუხარი",
+      "category": 9,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 589,
+    "fields": {
+      "quiz_word": "overjoyed",
+      "translation_ka": "ძალიან გახარებული",
+      "category": 9,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 590,
+    "fields": {
+      "quiz_word": "stressed",
+      "translation_ka": "სტრესული",
+      "category": 9,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 591,
+    "fields": {
+      "quiz_word": "ideology",
+      "translation_ka": "იდეოლოგია",
+      "category": 10,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 592,
+    "fields": {
+      "quiz_word": "propaganda",
+      "translation_ka": "პროპაგანდა",
+      "category": 10,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 593,
+    "fields": {
+      "quiz_word": "censorship",
+      "translation_ka": "ცენზურა",
+      "category": 10,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 594,
+    "fields": {
+      "quiz_word": "dictatorship",
+      "translation_ka": "დიქტატურა",
+      "category": 10,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 595,
+    "fields": {
+      "quiz_word": "democracy",
+      "translation_ka": "დემოკრატია",
+      "category": 10,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 596,
+    "fields": {
+      "quiz_word": "monarchy",
+      "translation_ka": "მონარქია",
+      "category": 10,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 597,
+    "fields": {
+      "quiz_word": "election campaign",
+      "translation_ka": "სარჩევნო კამპანია",
+      "category": 10,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 598,
+    "fields": {
+      "quiz_word": "coalition",
+      "translation_ka": "კოალიცია",
+      "category": 10,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 599,
+    "fields": {
+      "quiz_word": "policy",
+      "translation_ka": "პოლიტიკა (მიღებული)",
+      "category": 10,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 600,
+    "fields": {
+      "quiz_word": "referendum",
+      "translation_ka": "რეფერენდუმი",
+      "category": 10,
+      "level": 6
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 601,
+    "fields": {
+      "quiz_word": "culinary art",
+      "translation_ka": "კულინარიული ხელოვნება",
+      "category": 1,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 602,
+    "fields": {
+      "quiz_word": "gastronomy",
+      "translation_ka": "გასტრონომია",
+      "category": 1,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 603,
+    "fields": {
+      "quiz_word": "savor",
+      "translation_ka": "გემოს შეგრძნება",
+      "category": 1,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 604,
+    "fields": {
+      "quiz_word": "fermentation",
+      "translation_ka": "დუღილი",
+      "category": 1,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 605,
+    "fields": {
+      "quiz_word": "infusion",
+      "translation_ka": "ინფუზია",
+      "category": 1,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 606,
+    "fields": {
+      "quiz_word": "connoisseur",
+      "translation_ka": "მცოდნე (გურმანი)",
+      "category": 1,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 607,
+    "fields": {
+      "quiz_word": "palate",
+      "translation_ka": "გემო-გემოვნება",
+      "category": 1,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 608,
+    "fields": {
+      "quiz_word": "decadent",
+      "translation_ka": "განსაკუთრებით მდიდრული (საკვები)",
+      "category": 1,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 609,
+    "fields": {
+      "quiz_word": "delicacy",
+      "translation_ka": "დელიკატესი",
+      "category": 1,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 610,
+    "fields": {
+      "quiz_word": "fusion cuisine",
+      "translation_ka": "შერეული სამზარეულო",
+      "category": 1,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 611,
+    "fields": {
+      "quiz_word": "expatriate",
+      "translation_ka": "ემიგრანტი (უცხოეთში მცხოვრები)",
+      "category": 2,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 612,
+    "fields": {
+      "quiz_word": "nomadic",
+      "translation_ka": "მოგზაური/კომბლე",
+      "category": 2,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 613,
+    "fields": {
+      "quiz_word": "pilgrimage",
+      "translation_ka": "მონათვლული მოგზაურობა",
+      "category": 2,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 614,
+    "fields": {
+      "quiz_word": "voyage",
+      "translation_ka": "გრძელი მოგზაურობა",
+      "category": 2,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 615,
+    "fields": {
+      "quiz_word": "expeditionary",
+      "translation_ka": "ექსპედიციური",
+      "category": 2,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 616,
+    "fields": {
+      "quiz_word": "sojourn",
+      "translation_ka": "დროებითი ბინადრობა",
+      "category": 2,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 617,
+    "fields": {
+      "quiz_word": "hospitality industry",
+      "translation_ka": "მასპინძლობის ინდუსტრია",
+      "category": 2,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 618,
+    "fields": {
+      "quiz_word": "migration patterns",
+      "translation_ka": "მიგრაციული ნიმუშები",
+      "category": 2,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 619,
+    "fields": {
+      "quiz_word": "world heritage site",
+      "translation_ka": "მსოფლიო მემკვიდრეობის ობიექტი",
+      "category": 2,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 620,
+    "fields": {
+      "quiz_word": "cultural assimilation",
+      "translation_ka": "კულტურული ასიმილაცია",
+      "category": 2,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 621,
+    "fields": {
+      "quiz_word": "synergy",
+      "translation_ka": "სინერგია",
+      "category": 3,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 622,
+    "fields": {
+      "quiz_word": "benchmark",
+      "translation_ka": "საგნობრივი ნიშანი",
+      "category": 3,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 623,
+    "fields": {
+      "quiz_word": "shareholder",
+      "translation_ka": "აქციონერი",
+      "category": 3,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 624,
+    "fields": {
+      "quiz_word": "merger",
+      "translation_ka": "შერწყმა",
+      "category": 3,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 625,
+    "fields": {
+      "quiz_word": "acquisition",
+      "translation_ka": "შესყიდვა",
+      "category": 3,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 626,
+    "fields": {
+      "quiz_word": "subsidiary",
+      "translation_ka": "შვილობილი კომპანია",
+      "category": 3,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 627,
+    "fields": {
+      "quiz_word": "equity",
+      "translation_ka": "საკუთარი კაპიტალი",
+      "category": 3,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 628,
+    "fields": {
+      "quiz_word": "liability",
+      "translation_ka": "ვალდებულება",
+      "category": 3,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 629,
+    "fields": {
+      "quiz_word": "franchise",
+      "translation_ka": "ფრენჩაიზინგი",
+      "category": 3,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 630,
+    "fields": {
+      "quiz_word": "multilateral",
+      "translation_ka": "მრავალმხრივი",
+      "category": 3,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 631,
+    "fields": {
+      "quiz_word": "pedagogy",
+      "translation_ka": "პედაგოგიკა",
+      "category": 4,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 632,
+    "fields": {
+      "quiz_word": "didactic",
+      "translation_ka": "დადიდაქტიკური",
+      "category": 4,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 633,
+    "fields": {
+      "quiz_word": "experiential learning",
+      "translation_ka": "გამოცდილებითი სწავლა",
+      "category": 4,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 634,
+    "fields": {
+      "quiz_word": "lifelong learning",
+      "translation_ka": "სიცოცხლის მანძილზე სწავლა",
+      "category": 4,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 635,
+    "fields": {
+      "quiz_word": "apprenticeship",
+      "translation_ka": "მოწაფეობა",
+      "category": 4,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 636,
+    "fields": {
+      "quiz_word": "formative assessment",
+      "translation_ka": "ფორმაციული შეფასება",
+      "category": 4,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 637,
+    "fields": {
+      "quiz_word": "summative assessment",
+      "translation_ka": "ჯამური შეფასება",
+      "category": 4,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 638,
+    "fields": {
+      "quiz_word": "interdisciplinary",
+      "translation_ka": "ინტერდისციპლინური",
+      "category": 4,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 639,
+    "fields": {
+      "quiz_word": "scholarly",
+      "translation_ka": "მეცნიერული",
+      "category": 4,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 640,
+    "fields": {
+      "quiz_word": "pedagogical approach",
+      "translation_ka": "პედაგოგიური მიდგომა",
+      "category": 4,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 641,
+    "fields": {
+      "quiz_word": "nanotechnology",
+      "translation_ka": "ნანოტექნოლოგია",
+      "category": 5,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 642,
+    "fields": {
+      "quiz_word": "biotechnology",
+      "translation_ka": "ბიოტექნოლოგია",
+      "category": 5,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 643,
+    "fields": {
+      "quiz_word": "quantum computing",
+      "translation_ka": "კვანტური გამოთვლა",
+      "category": 5,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 644,
+    "fields": {
+      "quiz_word": "neuroscience",
+      "translation_ka": "ნეირომეცნიერება",
+      "category": 5,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 645,
+    "fields": {
+      "quiz_word": "automation",
+      "translation_ka": "ავტომატიზაცია",
+      "category": 5,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 646,
+    "fields": {
+      "quiz_word": "genome editing",
+      "translation_ka": "გენომის რედაქტირება",
+      "category": 5,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 647,
+    "fields": {
+      "quiz_word": "bioinformatics",
+      "translation_ka": "ბიოინფორმატიკა",
+      "category": 5,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 648,
+    "fields": {
+      "quiz_word": "wearable technology",
+      "translation_ka": "სატარებელი ტექნოლოგია",
+      "category": 5,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 649,
+    "fields": {
+      "quiz_word": "space exploration",
+      "translation_ka": "კოსმოსის კვლევა",
+      "category": 5,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 650,
+    "fields": {
+      "quiz_word": "innovation hub",
+      "translation_ka": "ინოვაციების ჰაბი",
+      "category": 5,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 651,
+    "fields": {
+      "quiz_word": "holistic medicine",
+      "translation_ka": "ჰოლისტური მედიცინა",
+      "category": 6,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 652,
+    "fields": {
+      "quiz_word": "palliative care",
+      "translation_ka": "პალიატიური მოვლა",
+      "category": 6,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 653,
+    "fields": {
+      "quiz_word": "gene therapy",
+      "translation_ka": "გენური თერაპია",
+      "category": 6,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 654,
+    "fields": {
+      "quiz_word": "preventive medicine",
+      "translation_ka": "პროფილაქტიკური მედიცინა",
+      "category": 6,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 655,
+    "fields": {
+      "quiz_word": "alternative treatment",
+      "translation_ka": "ალტერნატიული მკურნალობა",
+      "category": 6,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 656,
+    "fields": {
+      "quiz_word": "clinical trial",
+      "translation_ka": "კლინიკური კვლევა",
+      "category": 6,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 657,
+    "fields": {
+      "quiz_word": "diagnostic imaging",
+      "translation_ka": "დიაგნოსტიკური გამოსახულება",
+      "category": 6,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 658,
+    "fields": {
+      "quiz_word": "public health",
+      "translation_ka": "საჯარო ჯანდაცვა",
+      "category": 6,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 659,
+    "fields": {
+      "quiz_word": "nutraceutical",
+      "translation_ka": "ნუტრაცევტიკი",
+      "category": 6,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 660,
+    "fields": {
+      "quiz_word": "life expectancy",
+      "translation_ka": "სიცოცხლის ხანგრძლივობა",
+      "category": 6,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 661,
+    "fields": {
+      "quiz_word": "biosphere",
+      "translation_ka": "ბიოსფერო",
+      "category": 7,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 662,
+    "fields": {
+      "quiz_word": "atmospheric pressure",
+      "translation_ka": "ატმოსფერული წნევა",
+      "category": 7,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 663,
+    "fields": {
+      "quiz_word": "seismic activity",
+      "translation_ka": "სეისმური აქტივობა",
+      "category": 7,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 664,
+    "fields": {
+      "quiz_word": "precipitation",
+      "translation_ka": "ნალექი",
+      "category": 7,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 665,
+    "fields": {
+      "quiz_word": "hydrology",
+      "translation_ka": "ჰიდროლოგია",
+      "category": 7,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 666,
+    "fields": {
+      "quiz_word": "deforestation impact",
+      "translation_ka": "ტყის გაჩეხვის ზეგავლენა",
+      "category": 7,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 667,
+    "fields": {
+      "quiz_word": "desertification",
+      "translation_ka": "უდაბნოდ ქცევა",
+      "category": 7,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 668,
+    "fields": {
+      "quiz_word": "natural disaster",
+      "translation_ka": "ბუნებრივი კატასტროფა",
+      "category": 7,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 669,
+    "fields": {
+      "quiz_word": "environmental policy",
+      "translation_ka": "გარემოსდაცვითი პოლიტიკა",
+      "category": 7,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 670,
+    "fields": {
+      "quiz_word": "geological era",
+      "translation_ka": "გეოლოგიური ეპოქა",
+      "category": 7,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 671,
+    "fields": {
+      "quiz_word": "penthouse",
+      "translation_ka": "პენტჰაუსი",
+      "category": 8,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 672,
+    "fields": {
+      "quiz_word": "condominium",
+      "translation_ka": "კონდომინიუმი",
+      "category": 8,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 673,
+    "fields": {
+      "quiz_word": "architectural design",
+      "translation_ka": "არქიტექტურული დიზაინი",
+      "category": 8,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 674,
+    "fields": {
+      "quiz_word": "residential complex",
+      "translation_ka": "საცხოვრებელი კომპლექსი",
+      "category": 8,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 675,
+    "fields": {
+      "quiz_word": "co-housing",
+      "translation_ka": "თანაცხოვრება",
+      "category": 8,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 676,
+    "fields": {
+      "quiz_word": "gentrification",
+      "translation_ka": "გენტრიფიკაცია",
+      "category": 8,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 677,
+    "fields": {
+      "quiz_word": "urban sprawl",
+      "translation_ka": "ქალაქის გავრცელება",
+      "category": 8,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 678,
+    "fields": {
+      "quiz_word": "sustainable housing",
+      "translation_ka": "მდგრადი საცხოვრებელი",
+      "category": 8,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 679,
+    "fields": {
+      "quiz_word": "landlord dispute",
+      "translation_ka": "მეპატრონის დავა",
+      "category": 8,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 680,
+    "fields": {
+      "quiz_word": "tenancy agreement",
+      "translation_ka": "ქირავნობის ხელშეკრულება",
+      "category": 8,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 681,
+    "fields": {
+      "quiz_word": "ambivalent",
+      "translation_ka": "ორმაგი დამოკიდებულება",
+      "category": 9,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 682,
+    "fields": {
+      "quiz_word": "apathetic",
+      "translation_ka": "აპათიური",
+      "category": 9,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 683,
+    "fields": {
+      "quiz_word": "contemptuous",
+      "translation_ka": "ზიზღიანი",
+      "category": 9,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 684,
+    "fields": {
+      "quiz_word": "empathetic",
+      "translation_ka": "ემპათიური",
+      "category": 9,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 685,
+    "fields": {
+      "quiz_word": "melancholic",
+      "translation_ka": "მელანქოლიური",
+      "category": 9,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 686,
+    "fields": {
+      "quiz_word": "ecstatic",
+      "translation_ka": "ექსტაზში მყოფი",
+      "category": 9,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 687,
+    "fields": {
+      "quiz_word": "resentful",
+      "translation_ka": "გაბრაზებული",
+      "category": 9,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 688,
+    "fields": {
+      "quiz_word": "alienated",
+      "translation_ka": "გაუცხოებული",
+      "category": 9,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 689,
+    "fields": {
+      "quiz_word": "sentimental",
+      "translation_ka": "სენტიმენტალური",
+      "category": 9,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 690,
+    "fields": {
+      "quiz_word": "apprehensive",
+      "translation_ka": "შეშფოთებული",
+      "category": 9,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 691,
+    "fields": {
+      "quiz_word": "postmodernism",
+      "translation_ka": "პოსტმოდერნიზმი",
+      "category": 10,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 692,
+    "fields": {
+      "quiz_word": "existentialism",
+      "translation_ka": "ექზისტენციალიზმი",
+      "category": 10,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 693,
+    "fields": {
+      "quiz_word": "cultural relativism",
+      "translation_ka": "კულტურული რელატივიზმი",
+      "category": 10,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 694,
+    "fields": {
+      "quiz_word": "aesthetic movement",
+      "translation_ka": "ესთეტიკური მოძრაობა",
+      "category": 10,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 695,
+    "fields": {
+      "quiz_word": "renaissance",
+      "translation_ka": "რენესანსი",
+      "category": 10,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 696,
+    "fields": {
+      "quiz_word": "baroque",
+      "translation_ka": "ბაროკო",
+      "category": 10,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 697,
+    "fields": {
+      "quiz_word": "neoclassicism",
+      "translation_ka": "ნეოკლასიციზმი",
+      "category": 10,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 698,
+    "fields": {
+      "quiz_word": "avant-garde",
+      "translation_ka": "ავანგარდი",
+      "category": 10,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 699,
+    "fields": {
+      "quiz_word": "symbolism",
+      "translation_ka": "სიმბოლიზმი",
+      "category": 10,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 700,
+    "fields": {
+      "quiz_word": "cultural heritage management",
+      "translation_ka": "კულტურული მემკვიდრეობის მართვა",
+      "category": 10,
+      "level": 7
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 701,
+    "fields": {
+      "quiz_word": "degustation",
+      "translation_ka": "დეგუსტაცია",
+      "category": 1,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 702,
+    "fields": {
+      "quiz_word": "epicurean",
+      "translation_ka": "ეპიკურიანი",
+      "category": 1,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 703,
+    "fields": {
+      "quiz_word": "molecular gastronomy",
+      "translation_ka": "მოლეკულური გასტრონომია",
+      "category": 1,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 704,
+    "fields": {
+      "quiz_word": "oenology",
+      "translation_ka": "ოენოლოგია (ღვინის მეცნიერება)",
+      "category": 1,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 705,
+    "fields": {
+      "quiz_word": "terroir",
+      "translation_ka": "ტერუარი (ღვინის წარმოება)",
+      "category": 1,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 706,
+    "fields": {
+      "quiz_word": "umami",
+      "translation_ka": "უმამი (გემო)",
+      "category": 1,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 707,
+    "fields": {
+      "quiz_word": "artisanal",
+      "translation_ka": "ხელოსნური",
+      "category": 1,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 708,
+    "fields": {
+      "quiz_word": "haute cuisine",
+      "translation_ka": "მაღალი კულინარია",
+      "category": 1,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 709,
+    "fields": {
+      "quiz_word": "sommelier",
+      "translation_ka": "სომელიე",
+      "category": 1,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 710,
+    "fields": {
+      "quiz_word": "sous-vide",
+      "translation_ka": "სუვიდი",
+      "category": 1,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 711,
+    "fields": {
+      "quiz_word": "peregrination",
+      "translation_ka": "მოგზაურობა (გრძელი)",
+      "category": 2,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 712,
+    "fields": {
+      "quiz_word": "peripatetic",
+      "translation_ka": "მოგზაური (მუდმივად მოძრავი)",
+      "category": 2,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 713,
+    "fields": {
+      "quiz_word": "circumnavigate",
+      "translation_ka": "შემოვლა (მსოფლიოს გარშემო)",
+      "category": 2,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 714,
+    "fields": {
+      "quiz_word": "sojourner",
+      "translation_ka": "დროებითი მოგზაური",
+      "category": 2,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 715,
+    "fields": {
+      "quiz_word": "odyssey",
+      "translation_ka": "ოდისეა (გრძელი თავგადასავალი)",
+      "category": 2,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 716,
+    "fields": {
+      "quiz_word": "wayfarer",
+      "translation_ka": "მოგზაური ფეხით",
+      "category": 2,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 717,
+    "fields": {
+      "quiz_word": "transcultural",
+      "translation_ka": "ტრანსკულტურული",
+      "category": 2,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 718,
+    "fields": {
+      "quiz_word": "pilgrim",
+      "translation_ka": "მონათვლული მოგზაური",
+      "category": 2,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 719,
+    "fields": {
+      "quiz_word": "expatriation",
+      "translation_ka": "გადასახლება",
+      "category": 2,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 720,
+    "fields": {
+      "quiz_word": "diaspora",
+      "translation_ka": "დიასპორა",
+      "category": 2,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 721,
+    "fields": {
+      "quiz_word": "arbitrage",
+      "translation_ka": "არბიტრაჟი",
+      "category": 3,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 722,
+    "fields": {
+      "quiz_word": "macroeconomics",
+      "translation_ka": "მაკროეკონომიკა",
+      "category": 3,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 723,
+    "fields": {
+      "quiz_word": "microeconomics",
+      "translation_ka": "მიკროეკონომიკა",
+      "category": 3,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 724,
+    "fields": {
+      "quiz_word": "derivative",
+      "translation_ka": "დერივატივი (ფინანსები)",
+      "category": 3,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 725,
+    "fields": {
+      "quiz_word": "speculation",
+      "translation_ka": "სპეკულაცია",
+      "category": 3,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 726,
+    "fields": {
+      "quiz_word": "monetary policy",
+      "translation_ka": "საფინანსო პოლიტიკა",
+      "category": 3,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 727,
+    "fields": {
+      "quiz_word": "fiscal policy",
+      "translation_ka": "ფისკალური პოლიტიკა",
+      "category": 3,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 728,
+    "fields": {
+      "quiz_word": "liquidity",
+      "translation_ka": "ლიკვიდურობა",
+      "category": 3,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 729,
+    "fields": {
+      "quiz_word": "hedge fund",
+      "translation_ka": "ჰეჯ-ფონდი",
+      "category": 3,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 730,
+    "fields": {
+      "quiz_word": "sovereign debt",
+      "translation_ka": "სუვერენული ვალი",
+      "category": 3,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 731,
+    "fields": {
+      "quiz_word": "hermeneutics",
+      "translation_ka": "ჰერმენევტიკა",
+      "category": 4,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 732,
+    "fields": {
+      "quiz_word": "epistemology",
+      "translation_ka": "ეპისტემოლოგია",
+      "category": 4,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 733,
+    "fields": {
+      "quiz_word": "ontology",
+      "translation_ka": "ონტოლოგია",
+      "category": 4,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 734,
+    "fields": {
+      "quiz_word": "axiology",
+      "translation_ka": "აქსიოლოგია",
+      "category": 4,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 735,
+    "fields": {
+      "quiz_word": "dialectics",
+      "translation_ka": "დიალექტიკა",
+      "category": 4,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 736,
+    "fields": {
+      "quiz_word": "phenomenology",
+      "translation_ka": "ფენომენოლოგია",
+      "category": 4,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 737,
+    "fields": {
+      "quiz_word": "structuralism",
+      "translation_ka": "სტრუქტურალიზმი",
+      "category": 4,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 738,
+    "fields": {
+      "quiz_word": "post-structuralism",
+      "translation_ka": "პოსტსტრუქტურალიზმი",
+      "category": 4,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 739,
+    "fields": {
+      "quiz_word": "positivism",
+      "translation_ka": "პოზიტივიზმი",
+      "category": 4,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 740,
+    "fields": {
+      "quiz_word": "nihilism",
+      "translation_ka": "ნიჰილიზმი",
+      "category": 4,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 741,
+    "fields": {
+      "quiz_word": "cryptography",
+      "translation_ka": "კრიპტოგრაფია",
+      "category": 5,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 742,
+    "fields": {
+      "quiz_word": "quantum mechanics",
+      "translation_ka": "კვანტური მექანიკა",
+      "category": 5,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 743,
+    "fields": {
+      "quiz_word": "superconductivity",
+      "translation_ka": "ზეგამტარობა",
+      "category": 5,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 744,
+    "fields": {
+      "quiz_word": "string theory",
+      "translation_ka": "სიმების თეორია",
+      "category": 5,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 745,
+    "fields": {
+      "quiz_word": "relativity",
+      "translation_ka": "რელატივიზმი",
+      "category": 5,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 746,
+    "fields": {
+      "quiz_word": "astrophysics",
+      "translation_ka": "ასტrophიზიკა",
+      "category": 5,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 747,
+    "fields": {
+      "quiz_word": "nanophotonics",
+      "translation_ka": "ნანოფოტონიკა",
+      "category": 5,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 748,
+    "fields": {
+      "quiz_word": "biophysics",
+      "translation_ka": "ბიოფიზიკა",
+      "category": 5,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 749,
+    "fields": {
+      "quiz_word": "cosmology",
+      "translation_ka": "კოსმოლოგია",
+      "category": 5,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 750,
+    "fields": {
+      "quiz_word": "singularity",
+      "translation_ka": "სინგულარობა",
+      "category": 5,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 751,
+    "fields": {
+      "quiz_word": "homeopathy",
+      "translation_ka": "ჰომეოპათია",
+      "category": 6,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 752,
+    "fields": {
+      "quiz_word": "psychosomatic",
+      "translation_ka": "ფსიქოსომატური",
+      "category": 6,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 753,
+    "fields": {
+      "quiz_word": "iatrogenic",
+      "translation_ka": "იატროგენული",
+      "category": 6,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 754,
+    "fields": {
+      "quiz_word": "oncology",
+      "translation_ka": "ონკოლოგია",
+      "category": 6,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 755,
+    "fields": {
+      "quiz_word": "neurology",
+      "translation_ka": "ნევროლოგია",
+      "category": 6,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 756,
+    "fields": {
+      "quiz_word": "psychiatry",
+      "translation_ka": "ფსიქიატრია",
+      "category": 6,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 757,
+    "fields": {
+      "quiz_word": "geriatrics",
+      "translation_ka": "გერიატრია",
+      "category": 6,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 758,
+    "fields": {
+      "quiz_word": "pathology",
+      "translation_ka": "პათოლოგია",
+      "category": 6,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 759,
+    "fields": {
+      "quiz_word": "endocrinology",
+      "translation_ka": "ენდოკრინოლოგია",
+      "category": 6,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 760,
+    "fields": {
+      "quiz_word": "immunopathology",
+      "translation_ka": "იმუნოპათოლოგია",
+      "category": 6,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 761,
+    "fields": {
+      "quiz_word": "anthropocene",
+      "translation_ka": "ანტროპოცენი",
+      "category": 7,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 762,
+    "fields": {
+      "quiz_word": "geomorphology",
+      "translation_ka": "გეომორფოლოგია",
+      "category": 7,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 763,
+    "fields": {
+      "quiz_word": "paleontology",
+      "translation_ka": "პალეონტოლოგია",
+      "category": 7,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 764,
+    "fields": {
+      "quiz_word": "climatology",
+      "translation_ka": "კლიმატოლოგია",
+      "category": 7,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 765,
+    "fields": {
+      "quiz_word": "oceanography",
+      "translation_ka": "ოკეანოგრაფია",
+      "category": 7,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 766,
+    "fields": {
+      "quiz_word": "stratigraphy",
+      "translation_ka": "სტრატიგრაფია",
+      "category": 7,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 767,
+    "fields": {
+      "quiz_word": "tectonic shift",
+      "translation_ka": "ტექტონური ცვლა",
+      "category": 7,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 768,
+    "fields": {
+      "quiz_word": "volcanology",
+      "translation_ka": "ვულკანოლოგია",
+      "category": 7,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 769,
+    "fields": {
+      "quiz_word": "geomagnetic field",
+      "translation_ka": "გეომაგნიტური ველი",
+      "category": 7,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 770,
+    "fields": {
+      "quiz_word": "biogeography",
+      "translation_ka": "ბიოგეოგრაფია",
+      "category": 7,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 771,
+    "fields": {
+      "quiz_word": "manor",
+      "translation_ka": "მანორი",
+      "category": 8,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 772,
+    "fields": {
+      "quiz_word": "estate",
+      "translation_ka": "გერმანი/უძრავი ქონება",
+      "category": 8,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 773,
+    "fields": {
+      "quiz_word": "fortress",
+      "translation_ka": "ციხე-სიმაგრე",
+      "category": 8,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 774,
+    "fields": {
+      "quiz_word": "citadel",
+      "translation_ka": "ციტადელი",
+      "category": 8,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 775,
+    "fields": {
+      "quiz_word": "monastery",
+      "translation_ka": "მონასტერი",
+      "category": 8,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 776,
+    "fields": {
+      "quiz_word": "abbey",
+      "translation_ka": "აბატი",
+      "category": 8,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 777,
+    "fields": {
+      "quiz_word": "sanctuary",
+      "translation_ka": "სანქტუარია/თავშესაფარი",
+      "category": 8,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 778,
+    "fields": {
+      "quiz_word": "villa",
+      "translation_ka": "ვილა",
+      "category": 8,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 779,
+    "fields": {
+      "quiz_word": "residence",
+      "translation_ka": "რეზიდენცია",
+      "category": 8,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 780,
+    "fields": {
+      "quiz_word": "palace",
+      "translation_ka": "პალასი",
+      "category": 8,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 781,
+    "fields": {
+      "quiz_word": "equanimity",
+      "translation_ka": "სულიერი სიმშვიდე",
+      "category": 9,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 782,
+    "fields": {
+      "quiz_word": "catharsis",
+      "translation_ka": "კათარზისი",
+      "category": 9,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 783,
+    "fields": {
+      "quiz_word": "ennui",
+      "translation_ka": "ენნუი (მოწყენილობა)",
+      "category": 9,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 784,
+    "fields": {
+      "quiz_word": "euphoria",
+      "translation_ka": "ეუფორია",
+      "category": 9,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 785,
+    "fields": {
+      "quiz_word": "angst",
+      "translation_ka": "ანგსტი (შეშფოთება)",
+      "category": 9,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 786,
+    "fields": {
+      "quiz_word": "pathos",
+      "translation_ka": "პათოსი",
+      "category": 9,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 787,
+    "fields": {
+      "quiz_word": "schadenfreude",
+      "translation_ka": "შადენფროიდე (სიხარული სხვისი უბედურებით)",
+      "category": 9,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 788,
+    "fields": {
+      "quiz_word": "stoicism",
+      "translation_ka": "სტოიციზმი",
+      "category": 9,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 789,
+    "fields": {
+      "quiz_word": "ambivalence",
+      "translation_ka": "ამბივალენტურობა",
+      "category": 9,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 790,
+    "fields": {
+      "quiz_word": "sublime",
+      "translation_ka": "სუბლიმი (ამაღლებული გრძნობა)",
+      "category": 9,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 791,
+    "fields": {
+      "quiz_word": "syncretism",
+      "translation_ka": "სინკრეტიზმი",
+      "category": 10,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 792,
+    "fields": {
+      "quiz_word": "eschatology",
+      "translation_ka": "ესქატოლოგია",
+      "category": 10,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 793,
+    "fields": {
+      "quiz_word": "theocracy",
+      "translation_ka": "თეოკრარია",
+      "category": 10,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 794,
+    "fields": {
+      "quiz_word": "pluralism",
+      "translation_ka": "პლურალიზმი",
+      "category": 10,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 795,
+    "fields": {
+      "quiz_word": "iconoclasm",
+      "translation_ka": "იკონოკლაზმი",
+      "category": 10,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 796,
+    "fields": {
+      "quiz_word": "transcendentalism",
+      "translation_ka": "ტრანსცენდენტალიზმი",
+      "category": 10,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 797,
+    "fields": {
+      "quiz_word": "hermeneutic circle",
+      "translation_ka": "ჰერმენევტიკური წრე",
+      "category": 10,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 798,
+    "fields": {
+      "quiz_word": "secularism",
+      "translation_ka": "სეკულარიზმი",
+      "category": 10,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 799,
+    "fields": {
+      "quiz_word": "metaphysics",
+      "translation_ka": "მეტაფიზიკა",
+      "category": 10,
+      "level": 8
+    }
+  },
+  {
+    "model": "quizzes.QuizWord",
+    "pk": 800,
+    "fields": {
+      "quiz_word": "dialectical materialism",
+      "translation_ka": "დიალექტიკური მატერიალიზმი",
+      "category": 10,
+      "level": 8
+    }
+  }
+]

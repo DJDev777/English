@@ -30,6 +30,8 @@ INSTALLED_APPS = [
     ### My Apps ###
     'dictionary',
     'learning',
+    'accounts',
+    'quizzes',
 ]
 
 MIDDLEWARE = [
@@ -55,6 +57,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'quizzes.context_processors.english_levels_context',
+                "accounts.context_processors.user_level_context",
             ],
         },
     },
@@ -114,9 +118,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 STATIC_URL = "/static/"
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 
-LOGIN_URL = "/accounts/login/"
-LOGIN_REDIRECT_URL = "/"
-LOGOUT_REDIRECT_URL = "/accounts/login/"
+LOGIN_URL = "accounts:login"
+LOGIN_REDIRECT_URL = "learning:home"
+LOGOUT_REDIRECT_URL = "learning:home"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field

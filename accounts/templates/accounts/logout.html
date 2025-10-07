@@ -1,0 +1,13 @@
+{% extends 'learning/base.html' %}
+{% block title %}Logout - English Learner{% endblock %}
+
+{% block content %}
+<div class="container py-5 text-center">
+  <h3 class="fw-bold mb-3">Are you sure you want to log out?</h3>
+  <form method="post" action="{% url 'accounts:logout' %}">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger px-4">Logout</button>
+    <a href="/" class="btn btn-outline-secondary ms-2 px-4">Cancel</a>
+  </form>
+</div>
+{% endblock %}

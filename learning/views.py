@@ -78,12 +78,10 @@ def save_word_htmx(request):
 # ---------- Existing pages still work ----------
 @login_required
 def knowledge_base(request):
-    all = Word.objects.filter(user=request.user).order_by("-created_at")
-    for i in all:
-        print(i.created_at)
-    # print("all words", all)
+    all_words = Word.objects.filter(user=request.user).order_by("-created_at")
+
     grouped = {}
-    for w in Word.objects.filter(user=request.user).order_by("-created_at"):
+    for w in all_words:
         grouped.setdefault(w.created_at, []).append(w)
     return render(request, "learning/knowledge_base.html", {"grouped": grouped})
 
