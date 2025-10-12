@@ -31,6 +31,7 @@ def translate_word_htmx(request):
         return HttpResponseBadRequest("POST required")
 
     word = (request.POST.get("word") or "").strip()
+    print("translate_word_htmx - ", word)
     if not word:
         return HttpResponseBadRequest("Word is required")
 
@@ -48,6 +49,33 @@ def translate_word_htmx(request):
             "translated_example": data.get("translated example", "")
         },
     )
+
+
+# from django.http import JsonResponse
+# from django.views.decorators.csrf import csrf_exempt
+
+# @csrf_exempt
+# def translate_word_api(request):
+#     if request.method == 'POST':
+#         import json
+#         data = json.loads(request.body)
+#         word = data.get('word', '')
+
+#         # ... perform translation logic here ...
+#         translation = "пример"  # mocked response
+#         definition = "a test definition"
+#         example = "This is an example sentence."
+#         translated_example = "Это пример предложения."
+
+#         return JsonResponse({
+#             'word': word,
+#             'translation': translation,
+#             'definition': definition,
+#             'example': example,
+#             'translated_example': translated_example
+#         })
+
+
 
 
 @login_required

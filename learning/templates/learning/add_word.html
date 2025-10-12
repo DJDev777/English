@@ -1,4 +1,12 @@
 {% extends "learning/base.html" %}
+{% block htmx %}
+<script src="https://unpkg.com/htmx.org@1.9.12" defer></script>
+{% endblock %}
+
+{% block bootstrap_js %}
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+{% endblock %}
+
 {% block title %}Add Word • English Learner{% endblock %}
 
 {% block content %}
@@ -19,23 +27,49 @@
             <button
               type="button"
               class="btn btn-primary w-100"
-              data-bs-toggle="modal"
-              data-bs-target="#translationModal"
-              hx-post="{% url 'learning:translate_word_htmx' %}"
-              hx-include="#word-form"
-              hx-target="#translationModal .modal-content"
-              hx-swap="innerHTML"
+              id="translate-btn"
             >
               Translate
             </button>
           </div>
         </form>
-
-        <div class="mt-4 small text-muted">
-          Tip: You can click Translate and then save the word directly from the modal.
-        </div>
       </div>
     </div>
   </div>
 </div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  document.getElementById('translate-btn').addEventListener('click', function () {
+    const word = document.getElementById('word').value.trim();
+    if (!word) return;
+
+    const modalEl = document.getElementById("translationModal");
+    const modalContent = modalEl.querySelector('.modal-content');
+
+    // Step 1: Show "Translating..." immediately
+    modalContent.innerHTML = `
+      <div class="modal-header">
+        <h5 class="modal-title">Translating “${word}”</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body text-center py-5">
+        <div class="spinner-border text-primary mb-3" role="status"></div>
+        <div class="small text-secondary">Fetching translation...</div>
+      </div>
+    `;
+
+    // Step 2: Show modal immediately (this was missing!)
+    const modal = new bootstrap.Modal(modalEl);
+    modal.show();
+
+    // Step 3: Replace content via HTMX after loading
+    htmx.ajax('POST', "{% url 'learning:translate_word_htmx' %}", {
+      values: { word },
+      target: "#translationModal .modal-content",
+      swap: "innerHTML"
+    });
+  });
+</script>
 {% endblock %}

@@ -18,4 +18,7 @@ urlpatterns = [
     path("words/save/", views.save_word_htmx, name="save_word_htmx"),
 
     path("knowledge-base/", views.knowledge_base, name="knowledge_base"),
+
+    # path('api/translate/', views.translate_word_api, name='translate_word_api'),
+
 ]

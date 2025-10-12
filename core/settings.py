@@ -32,6 +32,8 @@ INSTALLED_APPS = [
     'learning',
     'accounts',
     'quizzes',
+    'words',
+
 ]
 
 MIDDLEWARE = [

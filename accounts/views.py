@@ -12,7 +12,7 @@ from .models import Profile
 
 def login_view(request):
     if request.method == "POST":
-        username = request.POST.get("username")
+        username = request.POST.get("username").lower()
         password = request.POST.get("password")
         next_url = request.POST.get("next") or request.GET.get("next")
 
